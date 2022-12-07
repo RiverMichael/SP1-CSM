@@ -1,0 +1,13 @@
+:root {
+    --ff-header: 'Ubuntu', sans-serif;
+    --ff-body: 'Source Sans Pro', sans-serif;
+    --clr-white: #FBFCFD;
+    --clr-darkblue: #00101C;
+    --clr-grey: #F1F2F4;
+    --clr-visit: #F0684D;
+    --clr-exhibits: #3C96C1;
+    --clr-events: #6A9F67;
+    --clr-about: #B565E0;
+    --clr-active:#6E99B9;
+    --clr-cta-active: #0080E0;
+}
