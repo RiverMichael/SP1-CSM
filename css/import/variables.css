@@ -4,10 +4,11 @@
     --clr-white: #FBFCFD;
     --clr-darkblue: #00101C;
     --clr-grey: #F1F2F4;
-    --clr-visit: #F0684D;
-    --clr-exhibits: #3C96C1;
-    --clr-events: #6A9F67;
-    --clr-about: #B565E0;
+    --clr-visit: #6C06BC;
+    --clr-exhibits: #187B75;
+    --clr-events-dark: #114570;
+    --clr-events-light: #84C5F9;
+    --clr-about: #B44F7F;
+    --clr-link: #9E2B0C;
     --clr-active:#6E99B9;
-    --clr-cta-active: #0080E0;
 }

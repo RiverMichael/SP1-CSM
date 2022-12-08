@@ -1,25 +1,19 @@
 a {
-    color: var(--clr-darkblue);
+    color: var(--clr-link);
     text-decoration: none;
 }
 
 a:hover {
     color: var(--clr-active);
-}
-
-a:active {
-    color: var(--clr-cta-active);
-}
-
-li a:hover {
-    text-transform: unset;
-    border-bottom: 2px solid var(--clr-active);
     transition-duration: 0.25s;
 }
 
-.item__link:hover {
-    color: var(--clr-darkblue);
+a:active {
+    color: var(--clr-events-dark);
+}
 
+li a {
+    color: var(--clr-darkblue);
 }
 
 .active {
@@ -48,22 +42,6 @@ li a:hover {
 }
 
 .cta:active {
-    background: var(--clr-cta-active);
+    background: var(--clr-events-dark);
     color: var(--clr-darkblue);
-}
-
-.cta-round {
-    padding: 0px;
-    border-radius: 50%;
-    box-shadow: none;
-}
-
-.cta-round:hover {
-    border: 2px solid var(--clr-white);
-}
-
-.cta-round:active {
-    background: var(--clr-darkblue);
-    color: #0080E0;
-    border: 2px solid var(--clr-white);
 }

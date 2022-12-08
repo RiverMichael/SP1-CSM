@@ -1,46 +1,39 @@
 @media (min-width: 600px) {
-    section {
-        padding: 100px 0px;
+   section {
+        padding: 150px 0px;
     }
-
-    .container {
+    
+    .split {
         flex-direction: row;
-        gap: 100px;
         align-items: center;
     }
 
-    .container > * {
+    .split > * {
         flex: 1;
     }
 
-    .upcoming-events {
-        align-items: unset;
+    .exhibits-item__info {
+        padding: 0px 30px;
     }
 
-    .reverse {
+    .exhibits-item img {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .robotics img {
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .robotics {
         flex-direction: row-reverse;
     }
 
-    .home-image {
-        height: 40vh;
+   
+
+    .visit-today .split {
+        flex-direction: unset;
     }
 
-    .home-intro {
-        margin: auto;
-        text-align: center;
-    }
-
-    .upcoming {
-        padding-bottom: 200px;
-    }
-
-    .visit-us {
-        min-height: 30vh;
-    }
-
-    .visit-us__info {
-        top: 80px;
-    }
 
 
 }
@@ -66,16 +59,12 @@
     nav li {
         display: inline-block;
         font-size: 1rem;
-        padding: 0px 10px;
+        padding: 0px 15px;
         min-width: unset;
     }
-
-    .home-image {
-        height: 50vh;
-    }
-
+    /*
     footer {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding-top: 100px;
     }
 
@@ -91,7 +80,10 @@
 
     .footer-info > * {
         flex: 1;
-    }
+    }*/
+
+    
+
 
 }
 
@@ -113,27 +105,29 @@
         font-size: 1.25rem;
     }
 
+    footer p {
+        font-size: 1rem;
+    }
+
     nav li {
         font-size: 1.25rem;
     }
 
+    footer li {
+        font-size: 1rem;
+    }
+
     header img {
         width: 200px;
-    }
-
-    .home-image {
-        height: 60vh;
-    }
-
-    .home-intro {
-        max-width: 570px;
-    }
-
-    .visit-us {
-        min-height: 40vh;
-    }
-
-    .visit-us__info {
         top: 150px;
     }
-}
+
+   
+
+    
+/*
+    .wrapper {
+        max-width: 950px;
+    }   */
+
+    }
