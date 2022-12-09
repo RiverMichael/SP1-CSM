@@ -48,7 +48,7 @@
         padding: 50px 0px;
         justify-content: center;
     }
-    
+
 }
 
 @media (min-width: 900px) {
@@ -84,7 +84,7 @@
     }
 
     footer {
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: 1fr auto auto 1fr;
     }
 
     .footer-info {
@@ -147,12 +147,16 @@
         padding: 200px 0px;
     }
 
-    .home-image__wrapper {
-        min-height: 30vh;
+    .home-image {
+        min-height: 40vh;
     }
 
-    .exhibits, .events, .visit-today {
-        gap: 100px;
+    .featured {
+        max-width: 1000px;
+    }
+
+    .exhibits, .events, .visit-today__info {
+        gap: 150px;
     }
 
 }

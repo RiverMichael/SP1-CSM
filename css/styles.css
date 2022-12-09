@@ -86,7 +86,7 @@ section, article {
 }
 
 .wrapper {
-    margin: auto;
+    margin: 0px auto;
     max-width: 80%;
 }
 
@@ -101,7 +101,7 @@ section, article {
 
 .exhibits-item {
     background: var(--clr-white);
-    box-shadow: 0px 4px 4px rgba(24, 123, 117, 0.25);
+    box-shadow: 0px 0px 10px rgba(0, 16, 28, 0.25);
     gap: 30px;
     max-width: 1200px;
 }
@@ -111,7 +111,7 @@ section, article {
 }
 
 .exhibits-item:hover {
-    box-shadow: 0px 4px 4px var(--clr-exhibits);
+    box-shadow: 0px 0px 10px var(--clr-darkblue);
 }
 
 .exhibits-item a {
@@ -175,10 +175,10 @@ header {
     grid-template-columns: repeat(2, auto);
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px; 
     position: sticky;
     top: 0px;
-    z-index: 1000;
+    z-index: 1000; 
     background: var(--clr-white);
 }
 
