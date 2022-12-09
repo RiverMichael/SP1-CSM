@@ -5,13 +5,24 @@
     
     .split {
         flex-direction: row;
-        align-items: center;
     }
 
-    .split > * {
+    .exhibits {
+        gap: 80px;
+    }
+
+    .exhibits-item > * {
         flex: 1;
     }
 
+    .exhibits-item {
+        align-items: center;
+    }
+
+    .exhibits-item img {
+        max-height: 300px;
+    }
+    
     .exhibits-item__info {
         padding: 0px 30px;
     }
@@ -28,13 +39,15 @@
         flex-direction: row-reverse;
     }
 
-   
-
-    .visit-today .split {
+    .visit-today__info {
         flex-direction: unset;
+        justify-content: center;
     }
 
-
+    .social-media {
+        padding: 50px 0px;
+        justify-content: center;
+    }
 
 }
 
@@ -42,7 +55,12 @@
 
     header {
         grid-template-columns: 1fr auto;
-        align-items: end;
+        align-items: center;
+        padding: 20px 0px 20px 20px;
+    }
+
+    header img {
+        width: 150px;
     }
 
     header label {
@@ -52,38 +70,42 @@
     nav {
         display: block;
         position: static;
-        border-radius: 0px;
-        padding: 0px;
+        border-width: 2px 0px 2px 2px;
+        border-style: solid;
+        border-color: var(--clr-darkblue);
+        border-radius: 10px 0px 0px 10px;
+        box-shadow: 4px 2px 4px rgba(0, 16, 28, 0.5);
     }
 
     nav li {
         display: inline-block;
         font-size: 1rem;
         padding: 0px 15px;
-        min-width: unset;
     }
-    /*
+
     footer {
-        grid-template-columns: repeat(2, 1fr);
-        padding-top: 100px;
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .footer-info {
+        grid-column: 2;
+    }
+
+    .social-media {
+        grid-column: -1/1;
     }
 
     .footer-bottom {
         grid-column: -1/1;
     }
 
-    .footer-info {
-        flex-direction: row;
-        align-items: flex-start;
-        
+    .upcoming {
+        max-width: 900px;
     }
 
-    .footer-info > * {
-        flex: 1;
-    }*/
-
-    
-
+    .events {
+        gap: 80px;
+    }
 
 }
 
@@ -119,15 +141,18 @@
 
     header img {
         width: 200px;
-        top: 150px;
     }
 
-   
-
-    
-/*
-    .wrapper {
-        max-width: 950px;
-    }   */
-
+    section {
+        padding: 200px 0px;
     }
+
+    .home-image__wrapper {
+        min-height: 30vh;
+    }
+
+    .exhibits, .events, .visit-today {
+        gap: 100px;
+    }
+
+}

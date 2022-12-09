@@ -41,6 +41,7 @@ h3 {
 img {
     display: block;
     width: 100%;
+    object-fit: cover;
 }
 
 .icon {
@@ -63,7 +64,7 @@ img {
 }
 
 input {
-    background: #F1F2F4;
+    background: var(--clr-grey);
     border-radius: 5px;
     padding: 10px;
     border: 1px solid var(--clr-darkblue);
@@ -94,8 +95,75 @@ section {
     flex-direction: column;
 }
 
-.container, .split {
+.exhibits, .events {
     gap: 50px;
+}
+
+.exhibits-item {
+    background: var(--clr-white);
+    box-shadow: 0px 4px 4px rgba(24, 123, 117, 0.25);
+    gap: 30px;
+    max-width: 1200px;
+}
+
+.exhibits-item, .events-item {
+    border-radius: 10px;
+}
+
+.exhibits-item:hover {
+    box-shadow: 0px 4px 4px var(--clr-exhibits);
+}
+
+.exhibits-item a {
+    color: var(--clr-darkblue);
+}
+
+.exhibits-item img, .events-item img {
+    border-radius: 10px 10px 0px 0px;
+}
+.exhibits-item__info {
+    padding: 0px 30px 30px;
+}
+
+.exhibits-item__info h3 {
+    color: var(--clr-exhibits);
+}
+
+.robotics {
+    background: var(--clr-exhibits);
+}
+
+.robotics h3, .robotics p, .events-item__info p {
+    color: var(--clr-white);
+}
+
+.events-item {
+    color: var(--clr-white);
+    min-height: 400px;
+}
+
+.events-item__info {
+    padding: 20px 30px 30px;
+}
+
+.events-item__info h3 {
+    color: var(--clr-events-light);
+}
+
+.night {
+    background: #2C1C13;
+}
+
+.night:hover {
+    box-shadow: 0px 4px 4px #2C1C13;
+}
+
+.aeronautics {
+    background: #101012;
+}
+
+.aeronautics:hover {
+    box-shadow: 0px 4px 4px #101012;
 }
 
 
@@ -113,6 +181,7 @@ header {
     z-index: 1000;
     background: var(--clr-white);
 }
+
 header img {
     width: 100px;
 }
@@ -122,24 +191,22 @@ header img {
     display: none;
 }
 
-#nav-checkbox:checked ~ nav {
+#nav-checkbox:checked ~ nav, nav li {
     display: block;
 }
 
 nav li {
-    display: block;
     font-size: 1.25rem;
     font-weight: 700;
     text-transform: capitalize;
-    padding: 10px;
-    min-width: 147px;
+    padding: 15px;
 }
 
 nav {
     background: var(--clr-white);
     top: 93px;
     right: 0px;
-    padding: 0px 20px 20px;
+    padding: 20px;
     z-index: 1000;
     position: fixed;
     display: none;
@@ -162,16 +229,21 @@ footer {
     color: var(--clr-white);
 }
 
-.social-media, .footer-box {
+.social-media, .hours, .location {
     align-items: center;
 }
 
-.social-media, .social-media__icons, .footer-box, .subscribe {
+.social-media, .social-media__icons, .hours, .location, .subscribe {
     gap: 20px;
 }
 
 .social-media__icons {
     display: flex;
+    justify-content: center;
+}
+
+.footer-info {
+    gap: 50px;
 }
 
 .subscribe {
@@ -200,150 +272,4 @@ footer li {
     font-size: 0.7rem;
 }
 
-
-
-/* HOME PAGE */
-
-.home-intro {
-    text-align: center;
-}
-
-.home-intro h1 {
-    background: linear-gradient(90.42deg, #004376 1.56%, rgba(0, 67, 118, 0.7) 101.14%);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-shadow: 4px 4px 4px rgba(0, 67, 118, 0.25);
-    margin-bottom: 20px;
-}
-
-.home-intro p {
-    max-width: 500px;
-    margin: auto;
-}
-
-.home-image__wrapper {
-    background: url(../images/astronaut_colors.jpg);
-    min-height: 20vh;
-    background-size: cover;
-    background-position: center top;
-}
-
-.must-see h2, .must-see h3 {
-    color: var(--clr-exhibits);
-}
-
-.exhibits-item {
-    background: var(--clr-white);
-    box-shadow: 0px 4px 4px rgba(24, 123, 117, 0.25);
-    border-radius: 10px;
-    gap: 30px;
-    max-width: 1200px;
-}
-
-.upcoming-event {
-    max-width: 1200px;
-}
-
-.exhibits-item img {
-    max-height: 300px;
-    max-width: 600px;
-    object-fit: cover;
-}
-
-.exhibits-item:hover {
-    box-shadow: 0px 4px 4px var(--clr-exhibits);
-}
-
-.robotics {
-    background: var(--clr-exhibits);
-}
-
-.robotics h3, .robotics p {
-    color: var(--clr-white);
-}
-
-.exhibits-item__info {
-    padding: 0px 30px 30px;
-}
-
-.exhibits-item a {
-    color: var(--clr-darkblue);
-}
-
-.exhibits-item img, .upcoming-event img {
-    border-radius: 10px 10px 0px 0px;
-}
-
-.young-stars {
-    background: linear-gradient(99.96deg, #002C50 -13.68%, #00203A 100%);
-    color: var(--clr-white);
-}
-
-.young-stars h2 {
-    background: linear-gradient(90deg, #E0B300 -3.28%, #B79200 110.3%);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-align: center;
-}
-
-.young-stars p {
-    margin: 10px auto;
-    max-width: 410px;
-}
-
-.upcoming h2 {
-    color: var(--clr-events-dark);
-}
-
-.upcoming h3 {
-    color: var(--clr-events-light);
-}
-
-.upcoming-event {
-    border-radius: 10px;
-    color: var(--clr-white);
-    min-height: 400px;
-}
-
-.upcoming-event__info {
-    padding: 20px 30px 30px;
-}
-
-.night {
-    background: #2C1C13;
-}
-
-.night:hover {
-    box-shadow: 0px 4px 4px #2C1C13;
-}
-
-.aeronautics {
-    background: #101012;
-}
-
-.aeronautics:hover {
-    box-shadow: 0px 4px 4px #101012;
-}
-
-.visit-today {
-    background: linear-gradient(181.11deg, rgba(0, 52, 95, 0.71) 0.95%, rgba(251, 252, 253, 0.71) 88.76%);
-}
-
-.visit-today .split {
-    flex-direction: column-reverse;
-    align-items: center;
-}
-
-.visit-today__text {
-    gap: 20px;
-    text-align: center;
-    max-width: 240px;
-}
-
-.visit-today__text h2 {
-    margin-bottom: 0px;
-}
-
-.visit-today img {
-    border-radius: 10px;
-}
+/*  VISIT PAGE */
