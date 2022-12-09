@@ -1,5 +1,5 @@
 @media (min-width: 600px) {
-   section, .home-image {
+   section, article, .home-image {
         padding: 150px 0px;
     }
     
@@ -48,7 +48,7 @@
         padding: 50px 0px;
         justify-content: center;
     }
-
+    
 }
 
 @media (min-width: 900px) {
