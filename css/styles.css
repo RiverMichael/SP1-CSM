@@ -21,10 +21,6 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
-h2, h3 {
-    margin-bottom: 20px;
-}
-
 h1 {
     font-size: 3rem;
     line-height: 95%;
@@ -36,6 +32,10 @@ h2 {
 
 h3 {
     font-size: 1.25rem;
+}
+
+.highlight {
+    font-weight: 700;
 }
 
 img {
@@ -110,6 +110,10 @@ section, article {
     border-radius: 10px;
 }
 
+.exhibits h3, .events h3 {
+    margin-bottom: 20px;
+}
+
 .exhibits-item:hover {
     box-shadow: 0px 0px 10px var(--clr-darkblue);
 }
@@ -164,6 +168,18 @@ section, article {
 
 .aeronautics:hover {
     box-shadow: 0px 4px 4px #101012;
+}
+
+.intro {
+    position: relative;
+    border-bottom: 15px solid;
+    padding: 100px 0px 0px;
+    margin-bottom: 100px;
+}
+
+.intro h1 {
+    bottom: -7px;
+    position: absolute;
 }
 
 
@@ -249,6 +265,7 @@ footer h2 {
 
 .footer-info {
     gap: 50px;
+    margin: 0px auto;
 }
 
 .subscribe {
@@ -277,4 +294,5 @@ footer li {
     font-size: 0.7rem;
 }
 
-/*  VISIT PAGE */
+
+

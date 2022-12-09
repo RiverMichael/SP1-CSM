@@ -23,7 +23,6 @@ li a:hover {
 .active {
     color: var(--clr-active);
     border-bottom: 2px solid var(--clr-active);
-    text-transform: uppercase;
 }
 
 .cta {

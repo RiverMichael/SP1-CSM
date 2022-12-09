@@ -10,6 +10,9 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-shadow: 4px 4px 4px rgba(0, 67, 118, 0.25);
+}
+
+.home-intro h1, .featured h2, .young-stars h2, .upcoming h2 {
     margin-bottom: 20px;
 }
 
@@ -71,10 +74,6 @@
     text-align: center;
     min-width: 210px;
     max-width: 250px;
-}
-
-.visit-today__text h2 {
-    margin-bottom: 0px;
 }
 
 .visit-today__info img {
