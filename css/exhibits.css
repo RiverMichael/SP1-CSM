@@ -1,0 +1,12 @@
+/* EXHIBITS PAGE */
+
+.exhibits-heading {
+    color: var(--clr-exhibits);
+    text-shadow: 4px 4px 4px rgba(24, 123, 117, 0.25);
+    filter: drop-shadow(4px 4px 4px rgba(24, 123, 117, 0.25));
+}
+
+h2 {
+    color: var(--clr-exhibits);
+    margin-bottom: 20px;
+}

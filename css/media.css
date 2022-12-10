@@ -20,18 +20,10 @@
     }
 
     .exhibits-item img {
-        max-height: 300px;
-    }
-    
-    .exhibits-item__info {
-        padding: 0px 30px;
-    }
-
-    .exhibits-item img {
         border-radius: 10px 0px 0px 10px;
     }
 
-    .robotics img {
+    .evolution img, .robotics img {
         border-radius: 0px 10px 10px 0px;
     }
 

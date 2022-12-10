@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Watch science come to life at our interactive Community Science Museum"
+      content="Explore our intriguing interactive science exhibits at the Community Science Museum"
     />
-    <title>Community Science Museum | Home</title>
+    <title>Community Science Museum | Exhibits</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&family=Ubuntu:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
     <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/exhibits.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
   </head>
   <body>
@@ -28,9 +28,9 @@
       <input type="checkbox" id="nav-checkbox" />
       <nav>
         <ul>
-          <li><a href="index.html" class="active">home</a></li>
+          <li><a href="index.html">home</a></li>
           <li><a href="visit.html">visit</a></li>
-          <li><a href="exhibits.html">exhibits</a></li>
+          <li><a href="exhibits.html" class="active">exhibits</a></li>
           <li><a href="events.html">events</a></li>
           <li><a href="about.html">about</a></li>
           <li><a href="contact.html">contact</a></li>
@@ -40,146 +40,99 @@
     </header>
 
     <main>
-      <section class="home-intro wrapper">
-        <h1>Explore the world of science</h1>
-        <p>
-          Come join us at the Community Science Museum where we are committed to
-          making science accessible to all
-        </p>
+      <section class="intro exhibits-heading wrapper">
+        <h1>Exhibits</h1>
       </section>
 
-      <div class="home-image"></div>
-
-      <section class="featured wrapper">
-        <h2>Must-see exhibits</h2>
+      <section class="wrapper">
+        <h2>Our exhibits</h2>
         <div class="exhibits container">
           <div class="exhibits-item cosmology split">
             <div>
-              <a href="exhibits.html">
-                <img
-                  src="images/northern-lights.jpg"
-                  alt="the colorful northern lights shining over a lake"
-                  class="exhibit-image"
-              /></a>
+              <img
+                src="images/northern-lights.jpg"
+                alt="the colorful northern lights shining over a lake"
+                class="exhibit-image"
+              />
             </div>
             <div class="exhibits-item__info">
-              <a href="exhibits.html">
-                <h3>Cosmology</h3>
-                <p>
-                  Our fantastic exhibition, “The Sky Above Us” explores the
-                  night sky and what we can see and know about the universe
-                  around us.
-                </p></a
-              >
+              <h3>Cosmology</h3>
+              <p>
+                Our fantastic exhibition, “The Sky Above Us” explores the night
+                sky and what we can see and know about the universe around us.
+              </p>
+            </div>
+          </div>
+
+          <div class="exhibits-item evolution split reverse">
+            <div>
+              <img
+                src="images/evolution.jpg"
+                alt="skelleton monkey climbing on a tree branch"
+                class="exhibit-image"
+              />
+            </div>
+            <div class="exhibits-item__info">
+              <h3>Evolution</h3>
+              <p>
+                For centuries, philosophers and scientists have wrestled with
+                the question of our origins. Where do we come from and how did
+                we get here?
+              </p>
+            </div>
+          </div>
+
+          <div class="exhibits-item biology split">
+            <div>
+              <img
+                src="images/heart.jpg"
+                alt="replica of the heart for learning purpose"
+                class="exhibit-image"
+              />
+            </div>
+            <div class="exhibits-item__info">
+              <h3>Biology and medicine</h3>
+              <p>
+                From micro-organisms to the human body, major breakthroughs in
+                biology are offering us unique insights into the great wonders
+                of the world.
+              </p>
             </div>
           </div>
 
           <div class="exhibits-item robotics split reverse">
-            <a href="exhibits.html">
+            <div>
               <img
                 src="images/robots.jpg"
                 alt="golden robot child playing with a smaller white robot"
                 class="exhibit-image"
-            /></a>
+              />
+            </div>
             <div class="exhibits-item__info">
-              <a href="exhibits.html">
-                <h3>Robotics and AI</h3>
-                <p>
-                  The information revolution is here and robotics and artificial
-                  intelligence are the science of the future.
-                </p></a
-              >
+              <h3>Robotics and AI</h3>
+              <p>
+                The information revolution is here and robotics and artificial
+                intelligence are the science of the future.
+              </p>
             </div>
           </div>
 
           <div class="exhibits-item ecology split">
-            <a href="exhibits.html">
+            <div>
               <img
                 src="images/boxed-water.jpg"
                 alt="hand holding a boxed carton of water under the water surface"
                 class="exhibit-image"
-            /></a>
+              />
+            </div>
             <div class="exhibits-item__info">
-              <a href="exhibits.html">
-                <h3>Ecology</h3>
-                <p>
-                  We unpack the dangers we currently face including global
-                  warming, extinction of species, and pollution.
-                </p></a
-              >
+              <h3>Ecology</h3>
+              <p>
+                We unpack the dangers we currently face including global
+                warming, extinction of species, and pollution.
+              </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      <article class="young-stars">
-        <div class="wrapper">
-          <h2>Young Stars Club</h2>
-          <p>
-            Every Saturday between 10:00 and 13:00 our Young Stars Club member's
-            meets to explore and experiment together with our team of experts.
-          </p>
-          <p>
-            Don't worry! It's free to be a YoungStar. All you have to do is sign
-            up at our information desk at the museum.
-          </p>
-          <p>
-            As a Young Star member you also get a free t-shirt, baseball cap and
-            priority to our popular Holiday Clubs.
-          </p>
-        </div>
-      </article>
-
-      <section class="upcoming wrapper">
-        <h2>Upcoming events</h2>
-        <div class="events split">
-          <div class="events-item night">
-            <a href="events.html">
-              <img
-                src="images/museum_night.jpg"
-                alt="a woolly mammoth skelleton in the museum at night"
-            /></a>
-            <div class="events-item__info">
-              <a href="events.html">
-                <h3>Night in the museum</h3>
-                <p>
-                  Bring your own sleeping bag and get ready to rough it as we go
-                  exploring and sleep over beside dinosaurs.
-                </p></a
-              >
-            </div>
-          </div>
-
-          <div class="events-item aeronautics">
-            <a href="events.html">
-              <img
-                src="images/moon-astronaut.jpg"
-                alt="a digital astronaut sitting on a moon in the dark galaxy"
-            /></a>
-            <div class="events-item__info">
-              <a href="events.html">
-                <h3>Aeronautics and space</h3>
-                <p>
-                  Professor Sheila Widnall delivers a lecture on aeronautics and
-                  where the future lies in exciting “space”.
-                </p></a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="visit-today">
-        <div class="visit-today__info split wrapper">
-          <div class="visit-today__text container">
-            <h2>Visit us today</h2>
-            <p>Visit the museum and watch science come to life</p>
-            <a href="visit.html" class="cta cta-execute">visit us today</a>
-          </div>
-          <img
-            src="images/kids_ai.jpg"
-            alt="two children watching science through AR glases"
-          />
         </div>
       </section>
     </main>
@@ -265,7 +218,7 @@
 
       <div class="footer-bottom container">
         <ul>
-          <li><a href="index.html" class="active">home</a></li>
+          <li><a href="index.html">home</a></li>
           <li><a href="visit.html">visit</a></li>
           <li><a href="about.html">about</a></li>
           <li><a href="contact.html">contact</a></li>

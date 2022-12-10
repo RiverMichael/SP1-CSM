@@ -1,6 +1,6 @@
 /*  VISIT PAGE */
 
-.visit {
+.visit-heading {
     color: var(--clr-visit);
     text-shadow: 4px 4px 4px rgba(57, 50, 77, 0.25);
     filter: drop-shadow(4px 4px 4px rgba(57, 50, 77, 0.25));
@@ -18,8 +18,9 @@
     align-items: center;
 }
 
-.visit-info h2 {
+h2, .shop-dine__item h3 {
     color: var(--clr-visit);
+    margin-bottom: 20px;
 }
 
 .admission {
@@ -90,14 +91,6 @@
 
 .teachers h3 {
     color: #312723;
-}
-
-.explore h2, .shop-dine h2, .shop-dine__item h3, .tours h2 {
-    color: var(--clr-visit);
-}
-
-.explore h2, .shop-dine h2, .shop-dine__item h3, .tours h2, .accessibility-info h2 {
-    margin-bottom: 20px;
 }
 
 .shop-dine__item img {

@@ -102,15 +102,13 @@ section, article {
 .exhibits-item {
     background: var(--clr-white);
     box-shadow: 0px 0px 10px rgba(0, 16, 28, 0.25);
-    gap: 30px;
-    max-width: 1200px;
 }
 
 .exhibits-item, .events-item {
     border-radius: 10px;
 }
 
-.exhibits h3, .events h3 {
+.exhibits-item__info h3, .events h3 {
     margin-bottom: 20px;
 }
 
@@ -125,19 +123,24 @@ section, article {
 .exhibits-item img, .events-item img {
     border-radius: 10px 10px 0px 0px;
 }
+
+.exhibits-item img {
+    max-height: 300px;
+}
+
 .exhibits-item__info {
-    padding: 0px 30px 30px;
+    padding: 30px;
 }
 
 .exhibits-item__info h3 {
     color: var(--clr-exhibits);
 }
 
-.robotics {
+.robotics, .evolution {
     background: var(--clr-exhibits);
 }
 
-.robotics h3, .robotics p, .events-item__info p {
+.robotics h3, .robotics p, .evolution h3, .evolution p, .events-item__info p {
     color: var(--clr-white);
 }
 
@@ -247,6 +250,9 @@ footer h2 {
 .social-media {
     background: var(--clr-darkblue);
     padding: 30px 0px;
+}
+
+.social-media h2 {
     color: var(--clr-white);
 }
 
