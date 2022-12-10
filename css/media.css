@@ -52,7 +52,7 @@
         justify-content: space-between;
     }
 
-    .explore-item, .shop-dine__box, .shop-dine__item {
+    .explore-item {
         gap: 50px;
     }
 
@@ -60,6 +60,18 @@
         max-width: 400px;
         padding: 50px;
         margin: 150px auto 250px;
+    }
+
+    .events {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .shop-dine__box {
+        gap: 100px;
+    }
+
+    .shop-dine__item {
+        gap: 50px;
     }
 
 }
@@ -120,7 +132,7 @@
         gap: 80px;
     }
 
-    .visit-info, .shop-dine {
+    .visit-info {
         max-width: 800px;
     }
 
@@ -164,12 +176,16 @@
         min-height: 40vh;
     }
 
-    .featured {
+    .featured, .shop-dine, .events-info, .birthdays-box {
         max-width: 1000px;
     }
 
-    .exhibits, .events, .visit-today__info {
+    .exhibits, .visit-today__info {
         gap: 150px;
+    }
+
+    .events {
+        gap: 100px;
     }
 
 }
