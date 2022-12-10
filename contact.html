@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Please contact us at the Community Science Museum"
+    />
+    <title>Community Science Museum | Contact Us</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img
+          src="images/csm_logo.png"
+          alt="Logotype for the Community Science Museum"
+      /></a>
+      <label for="nav-checkbox" class="cta">Menu</label>
+      <input type="checkbox" id="nav-checkbox" />
+      <nav>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="visit.html">visit</a></li>
+          <li><a href="exhibits.html">exhibits</a></li>
+          <li><a href="events.html">events</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="contact.html" class="active">contact</a></li>
+          <li><a href="getinvolved.html">get involved</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro contact-heading wrapper">
+        <h1>Contact Us</h1>
+      </section>
+
+      <section class="contact wrapper">
+        <h2>Please contact us if you have any questions or requests</h2>
+      </section>
+
+      <section class="contact-form__box wrapper">
+        <h2>Contact us</h2>
+        <form action="contact-validation.html">
+          <div class="contact-form split">
+            <section class="contact-information container">
+              <label for="subject" class="visually-hidden"
+                >Choose subject</label
+              >
+              <select name="subject" id="subject">
+                <option value="">Choose subject</option>
+                <option value="young-stars">Young stars club</option>
+                <option value="holiday-club">Holiday club</option>
+                <option value="tours">Guided tours</option>
+                <option value="events">Events</option>
+                <option value="internship">Internship</option>
+                <option value="research">Research</option>
+                <option value="volunteer">Volunteer</option>
+                <option value="donation">Donations</option>
+                <option value="lost-found">Lost and found</option>
+                <option value="donation">Other</option>
+              </select>
+              <label for="name" class="visually-hidden">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+                required
+              />
+              <label for="email" class="visually-hidden">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email address"
+                required
+              />
+              <label for="phone" class="visually-hidden">Phone</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Enter ypur phone number"
+              />
+            </section>
+            <section class="message container">
+              <label for="message" class="visually-hidden">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Enter your message"
+                class="form__input"
+              >
+              </textarea>
+              <div>
+                <input type="checkbox" id="subscribe" name="subscribe" />
+                <label for="subscribe"
+                  >I want to subscribe to the museums newsletter</label
+                >
+              </div>
+              <div class="contact-form__action cta">Send</div>
+            </section>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-media split">
+        <h2>Follow us on social media</h2>
+        <div class="social-media__icons">
+          <a href="https://www.twitter.com">
+            <img
+              src="images/icons/icon_twitter.svg"
+              alt="logotype of twitter"
+              class="icon"
+          /></a>
+          <a href="https://www.instagram.com">
+            <img
+              src="images/icons/icon_instagram.svg"
+              alt="logotype of instagram"
+              class="icon"
+          /></a>
+          <a href="https://www.facebook.com">
+            <img
+              src="images/icons/icon_facebook.svg"
+              alt="logotype of facebook"
+              class="icon"
+          /></a>
+        </div>
+      </div>
+
+      <div class="footer-info split">
+        <div class="hours container">
+          <img
+            src="images/icons/icon_clock.svg"
+            alt="clock to show the opening hours"
+            class="icon"
+          />
+          <div>
+            <p class="highlight">Monday</p>
+            <p>Closed</p>
+          </div>
+          <div>
+            <p class="highlight">Tuesday - Friday</p>
+            <p>10:00 - 19:00</p>
+          </div>
+          <div>
+            <p class="highlight">Saturday - Sunday</p>
+            <p>10:00 - 16:00</p>
+          </div>
+        </div>
+        <div class="location container">
+          <img
+            src="images/icons/icon_location.svg"
+            alt="location marker to show the adress for the museum"
+            class="icon"
+          />
+          <img
+            src="images/csm_logo.png"
+            alt="logotype for the Community Science Museum"
+            class="logo-small"
+          />
+          <p>Kjelsåsveien 143 0491, Oslo</p>
+        </div>
+      </div>
+
+      <div class="subscribe container wrapper">
+        <h2>Sign up for our newsletter</h2>
+        <p>
+          Get the latest news about upcoming exhibits and events. Subscribers
+          also get a 10% discount in our Shop & Dine area.
+        </p>
+        <form class="subscribe-form container">
+          <label class="visually-hidden" for="email">email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <a href="subscribe.html" class="cta">Subscribe</a>
+        </form>
+      </div>
+
+      <div class="footer-bottom container">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="visit.html">visit</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="contact.html" class="active">contact</a></li>
+          <li><a href="getinvolved.html">get involved</a></li>
+        </ul>
+
+        <p class="copy">
+          Copyright &copy; 2022 | Michael Nilsson - Front-End Development,
+          Noroff
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
