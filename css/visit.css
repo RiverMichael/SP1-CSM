@@ -2,8 +2,8 @@
 
 .visit {
     color: var(--clr-visit);
-    text-shadow: 4px 4px 4px rgba(225, 80, 65, 0.25);
-    filter: drop-shadow(4px 4px 4px rgba(225, 80, 65, 0.25));
+    text-shadow: 4px 4px 4px rgba(57, 50, 77, 0.25);
+    filter: drop-shadow(4px 4px 4px rgba(57, 50, 77, 0.25));
 }
 
 .visit-info {
@@ -45,6 +45,7 @@
 .explore-item {
     padding: 50px 10%;
     justify-content: space-evenly;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .visit-info, .explore-item, .explore-item__info, .shop-dine__box, .shop-dine__item {
@@ -59,6 +60,7 @@
     border-radius: 50%;
     max-width: 350px;
     max-height: 350px;  
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .explore-item__info {
@@ -66,28 +68,28 @@
 }
 
 .kids {
-    background: #8B6DD9;
-}
-
-.family {
-    background: #7A9796;
+    background: rgba(139, 109, 217, 0.51);
 }
 
 .kids h3 {
-    color: #37304A;
+    color: #39324D;
+}
+
+.family {
+    background: var(--clr-get-involved);
 }
 
 .family h3 {
     color: #243939;
 }
 
-.teachers h3 {
-    color: #D27241;
+.teachers {
+    background: rgba(64, 27, 8, 0.66);
+    color: var(--clr-white);
 }
 
-.teachers {
-    background: #401B08;
-    color: var(--clr-white);
+.teachers h3 {
+    color: #312723;
 }
 
 .explore h2, .shop-dine h2, .shop-dine__item h3, .tours h2 {

@@ -36,7 +36,10 @@ li a:hover {
     font-weight: 500;
     font-size: 1rem;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    
+}
+
+.cta-execute {
+    background: var(--clr-about);
 }
 
 .cta:hover {
