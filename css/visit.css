@@ -1,9 +1,12 @@
 /*  VISIT PAGE */
 
 .visit-heading {
-    color: var(--clr-visit);
     text-shadow: 4px 4px 4px rgba(57, 50, 77, 0.25);
     filter: drop-shadow(4px 4px 4px rgba(57, 50, 77, 0.25));
+}
+
+h1, h2, .shop-dine__item h3, .kids h3 {
+    color: var(--clr-visit);
 }
 
 .visit-info {
@@ -14,23 +17,19 @@
     margin: 150px auto 100px;
 }
 
-.visit-info, .explore-item, .shop-dine__item {
+.visit-info, .admission, .explore-item, .shop-dine__item {
     align-items: center;
 }
 
 h2, .shop-dine__item h3 {
-    color: var(--clr-visit);
     margin-bottom: 20px;
 }
 
 .admission {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     max-width: 190px;
 }
 
-.admission, .tours {
+.admission {
     gap: 20px;
 }
 
@@ -76,10 +75,6 @@ h2, .shop-dine__item h3 {
     background: rgba(139, 109, 217, 0.51);
 }
 
-.kids h3 {
-    color: #39324D;
-}
-
 .family {
     background: var(--clr-get-involved);
 }
@@ -113,9 +108,8 @@ h2, .shop-dine__item h3 {
     background: url(../images/braille_display.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 40vh;
+    min-height: 20vh;
     position: relative;
-    padding: 0px;
     margin: 200px auto 100px;
 }
 

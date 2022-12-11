@@ -3,7 +3,7 @@
     filter: drop-shadow(4px 4px 4px rgba(0, 16, 28, 0.25));
 }
 
-.contact-form h2 {
+.contact-form h2, .contact-validation {
     text-align: center;
 }
 
@@ -37,4 +37,16 @@ textarea {
 
 .contact-form button {
     margin-top: 5px;
+}
+
+.contact-validation h2 {
+    margin-bottom: 20px;
+}
+
+.contact-validation__action {
+    margin-top: 70px;
+}
+
+.contact-validation p {
+    max-width: 350px;
 }

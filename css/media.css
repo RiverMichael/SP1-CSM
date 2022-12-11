@@ -1,7 +1,4 @@
 @media (min-width: 600px) {
-   /*section, article, .home-image {
-        padding: 150px 0px;
-    } */
     
     .split {
         flex-direction: row;
@@ -11,7 +8,7 @@
         gap: 80px;
     }
 
-    .exhibits-item * {
+    .exhibits-item > *, .contact-form__box > * {
         flex: 1;
     }
 
@@ -31,14 +28,20 @@
         flex-direction: row-reverse;
     }
 
+    .young-stars__box, .contact {
+        max-width: 500px;
+    }
+
     .visit-today__info {
         flex-direction: unset;
+    }
+
+    .visit-today__info, .social-media {
         justify-content: center;
     }
 
     .social-media {
         padding: 50px 0px;
-        justify-content: center;
     }
 
     .visit-info {
@@ -47,7 +50,7 @@
         justify-content: space-between;
     }
 
-    .explore-item {
+    .explore-item, .shop-dine__item {
         gap: 50px;
     }
 
@@ -64,20 +67,8 @@
         gap: 100px;
     }
 
-    .shop-dine__item {
-        gap: 50px;
-    }
-
-    .contact {
-        max-width: 500px;
-    }
-
     .contact-form__box {
         flex-wrap: wrap;
-    }
-    
-    .contact-form__box > * {
-        flex: 1;
     }
     
     .contact-form__box h2 {
@@ -114,8 +105,11 @@
 
     nav li {
         display: inline-block;
-        font-size: 1rem;
         padding: 0px 15px;
+    }
+
+    nav li {
+        font-size: 1rem;
     }
 
     footer {
@@ -126,11 +120,7 @@
         grid-column: 2;
     }
 
-    .social-media {
-        grid-column: -1/1;
-    }
-
-    .footer-bottom {
+    .social-media, .footer-bottom {
         grid-column: -1/1;
     }
 
@@ -142,7 +132,7 @@
         gap: 80px;
     }
 
-    .visit-info {
+    .visit-info, .contact-form {
         max-width: 800px;
     }
 
@@ -153,10 +143,6 @@
     .birthdays img {
         transform: rotate(-15deg);
         box-shadow: -30px -30px 0px #FCB4FD;
-    }
-
-    .contact-form {
-        max-width: 800px;
     }
 
 }
@@ -175,19 +161,11 @@
         font-size: 1.5rem;
     }
 
-    p {
+    p, nav li {
         font-size: 1.25rem;
     }
 
     footer p {
-        font-size: 1rem;
-    }
-
-    nav li {
-        font-size: 1.25rem;
-    }
-
-    footer li {
         font-size: 1rem;
     }
 
@@ -213,6 +191,10 @@
 
     .contact {
         max-width: 550px;
+    }
+
+    .contact-validation p {
+        max-width: 430px;
     }
 
 }

@@ -1,24 +1,23 @@
 /* HOME PAGE */
 
-.home-intro {
+.home-intro, .visit-today__text, .young-stars h2 {
     text-align: center;
 }
 
 .home-intro h1 {
     background: linear-gradient(90.42deg, #004376 1.56%, rgba(0, 67, 118, 0.7) 101.14%);
+    text-shadow: 4px 4px 4px rgba(0, 67, 118, 0.25);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-shadow: 4px 4px 4px rgba(0, 67, 118, 0.25);
 }
 
-.home-intro h1, .featured h2, .young-stars h2, .upcoming h2 {
+.home-intro h1, .featured h2 {
     margin-bottom: 20px;
 }
 
 .home-intro p {
-    max-width: 500px;
-    margin: auto;
+    max-width: 470px;
 }
 
 .home-image {
@@ -26,6 +25,9 @@
     min-height: 40vh;
     background-size: cover;
     background-position: center top;
+}
+
+.home-image, .young-stars, .visit-today {
     margin: 100px auto;
 }
 
@@ -36,7 +38,6 @@
 .young-stars {
     background: linear-gradient(99.96deg, #002C50 -13.68%, #00203A 100%);
     color: var(--clr-white);
-    margin: 100px auto;
 }
 
 .young-stars h2 {
@@ -44,21 +45,14 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-align: center;
 }
 
-.young-stars p {
-    margin: 10px auto;
-    max-width: 500px;
-}
-
-.upcoming h2 {
-    color: var(--clr-events-dark);
+.young-stars__box, .visit-today__text {
+    gap: 20px;
 }
 
 .visit-today {
     background: linear-gradient(181.11deg, rgba(0, 52, 95, 0.71) 0.95%, rgba(251, 252, 253, 0.71) 88.76%);
-    margin: 100px auto;
 }
 
 .visit-today__info {
@@ -69,15 +63,10 @@
 
 .visit-today__info img {
     border-radius: 10px;
+    max-width: 500px;
 }
 
 .visit-today__text {
-    gap: 20px;
-    text-align: center;
     min-width: 210px;
     max-width: 250px;
-}
-
-.visit-today__info img {
-    max-width: 500px;
 }

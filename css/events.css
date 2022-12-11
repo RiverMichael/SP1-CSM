@@ -6,14 +6,6 @@
     filter: drop-shadow(4px 4px 4px rgba(17, 69, 112, 0.25));
 }
 
-h2 {
-    color: var(--clr-events-dark);
-}
-
-.upcoming h2 {
-    margin-bottom: 20px;
-}
-
 .energetica {
     background: #01001D;
 }
