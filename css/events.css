@@ -10,6 +10,10 @@ h2 {
     color: var(--clr-events-dark);
 }
 
+.upcoming h2 {
+    margin-bottom: 20px;
+}
+
 .energetica {
     background: #01001D;
 }
@@ -28,6 +32,7 @@ h2 {
 
 .birthdays {
     background: rgba(52, 161, 246, 0.6);
+    margin: 100px auto;
 }
 
 .birthdays-box {
@@ -42,9 +47,10 @@ h2 {
 .birthdays img {
     max-width: 300px;
     max-height: 300px;
-    transform: rotate(-15deg);
-    box-shadow: -30px -30px 0px #FCB4FD;
+    transform: rotate(-10deg);
+    box-shadow: -15px -15px 0px #FCB4FD;
 } 
+
 .birthdays-info {
     gap: 20px;
 }

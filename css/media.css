@@ -1,7 +1,7 @@
 @media (min-width: 600px) {
-   section, article, .home-image {
+   /*section, article, .home-image {
         padding: 150px 0px;
-    }
+    } */
     
     .split {
         flex-direction: row;
@@ -41,12 +41,7 @@
         justify-content: center;
     }
 
-    .intro {
-        padding: 150px 0px 0px;
-    }
-
     .visit-info {
-        margin: 150px auto 100px;
         padding: 30px;
         align-items: flex-start;
         justify-content: space-between;
@@ -59,7 +54,6 @@
     .tours {
         max-width: 400px;
         padding: 50px;
-        margin: 150px auto 250px;
     }
 
     .events {
@@ -72,6 +66,22 @@
 
     .shop-dine__item {
         gap: 50px;
+    }
+
+    .contact {
+        max-width: 500px;
+    }
+
+    .contact-form__box {
+        flex-wrap: wrap;
+    }
+    
+    .contact-form__box > * {
+        flex: 1;
+    }
+    
+    .contact-form__box h2 {
+        flex: 1 0 100%;
     }
 
 }
@@ -124,8 +134,8 @@
         grid-column: -1/1;
     }
 
-    .upcoming {
-        max-width: 900px;
+    .home-image {
+        min-height: 60vh;
     }
 
     .events {
@@ -133,6 +143,19 @@
     }
 
     .visit-info {
+        max-width: 800px;
+    }
+
+    .birthdays {
+        padding: 150px 0px;
+    }
+
+    .birthdays img {
+        transform: rotate(-15deg);
+        box-shadow: -30px -30px 0px #FCB4FD;
+    }
+
+    .contact-form {
         max-width: 800px;
     }
 
@@ -172,12 +195,12 @@
         width: 200px;
     }
 
-    .home-image {
-        min-height: 40vh;
-    }
-
     .featured, .shop-dine, .events-info, .birthdays-box {
         max-width: 1000px;
+    }
+
+    .upcoming {
+        max-width: 900px;
     }
 
     .exhibits, .visit-today__info {
@@ -186,6 +209,10 @@
 
     .events {
         gap: 100px;
+    }
+
+    .contact {
+        max-width: 550px;
     }
 
 }

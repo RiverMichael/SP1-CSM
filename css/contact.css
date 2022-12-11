@@ -1,0 +1,36 @@
+.contact-heading {
+    text-shadow: 4px 4px 4px rgba(0, 16, 28, 0.25);
+    filter: drop-shadow(4px 4px 4px rgba(0, 16, 28, 0.25));
+}
+
+.contact-form__box h2 {
+    text-align: center;
+}
+
+.contact-form__box {
+    border: 2px solid #00101C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 30px;
+    gap: 30px;
+}
+
+.contact-form__information, .contact-form__message {
+    padding: 0px;
+}
+
+.contact-form__information {
+    gap: 5px;
+}
+
+.contact-form__message {
+    gap: 10px;
+}
+
+textarea {
+    min-height: 145px;
+}
+
+.subscribe-label {
+    font-size: 0.8rem;
+}
