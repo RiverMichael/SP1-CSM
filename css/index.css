@@ -1,7 +1,8 @@
 /* HOME PAGE */
 
-.home-intro, .visit-today__text, .young-stars h2 {
-    text-align: center;
+.home-intro {
+    min-height: 30vh;
+    justify-content: center;
 }
 
 .home-intro h1 {
@@ -12,32 +13,28 @@
     background-clip: text;
 }
 
-.home-intro h1, .featured h2 {
-    margin-bottom: 20px;
+.home-intro__wrapper {
+    gap: var(--space-20);
+    align-items: center;
 }
 
-.home-intro p {
-    max-width: 470px;
+.home-intro__wrapper p {
+    max-width: 400px;
 }
 
-.home-image {
+.home-image__wrapper {
     background: url(../images/astronaut_colors.jpg);
-    min-height: 40vh;
+    min-height: 50vh;
     background-size: cover;
     background-position: center top;
-}
-
-.home-image, .young-stars, .visit-today {
-    margin: 100px auto;
-}
-
-.featured h2 {
-    color: var(--clr-exhibits);
 }
 
 .young-stars {
     background: linear-gradient(99.96deg, #002C50 -13.68%, #00203A 100%);
     color: var(--clr-white);
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
 }
 
 .young-stars h2 {
@@ -47,26 +44,32 @@
     background-clip: text;
 }
 
-.young-stars__box, .visit-today__text {
-    gap: 20px;
+.young-stars__wrapper {
+    gap: var(--space-20);
+}
+
+.young-stars__info {
+    gap: var(--space-10);
+    max-width: 490px;
 }
 
 .visit-today {
     background: linear-gradient(181.11deg, rgba(0, 52, 95, 0.71) 0.95%, rgba(251, 252, 253, 0.71) 88.76%);
 }
 
-.visit-today__info {
-    flex-direction: column-reverse;
+.visit-today__wrapper {
+    gap: var(--space-50);
+    padding-block: var(--space-100);
     align-items: center;
-    gap: 50px;
-}
-
-.visit-today__info img {
-    border-radius: 10px;
-    max-width: 500px;
 }
 
 .visit-today__text {
-    min-width: 210px;
+    text-align: center;
+    gap: var(--space-10);
     max-width: 250px;
+}
+
+.visit-today__wrapper img {
+    border-radius: 10px;
+    max-width: 500px;
 }

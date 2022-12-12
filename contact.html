@@ -115,8 +115,8 @@
     </main>
 
     <footer>
-      <div class="social-media split">
-        <h2>Follow us on social media</h2>
+      <section class="social-media split">
+        <h2 class="footer-heading">Follow us on social media</h2>
         <div class="social-media__icons">
           <a href="https://www.twitter.com">
             <img
@@ -137,10 +137,13 @@
               class="icon"
           /></a>
         </div>
-      </div>
+      </section>
 
-      <div class="footer-info split wrapper">
-        <div class="hours container">
+      <section
+        aria-label="opening hours and address"
+        class="footer-info even-columns container"
+      >
+        <div class="hours flex">
           <img
             src="images/icons/icon_clock.svg"
             alt="clock to show the opening hours"
@@ -159,7 +162,7 @@
             <p>10:00 - 16:00</p>
           </div>
         </div>
-        <div class="location container">
+        <div class="location flex">
           <img
             src="images/icons/icon_location.svg"
             alt="location marker to show the adress for the museum"
@@ -172,28 +175,32 @@
           />
           <p>Kjelsåsveien 143 0491, Oslo</p>
         </div>
-      </div>
 
-      <div class="subscribe container wrapper">
-        <h2>Sign up for our newsletter</h2>
-        <p>
-          Get the latest news about upcoming exhibits and events. Subscribers
-          also get a 10% discount in our Shop & Dine area.
-        </p>
-        <form class="subscribe-form container">
-          <label class="visually-hidden" for="email">email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email address"
-            required
-          />
-          <a href="subscribe.html" class="cta">Subscribe</a>
-        </form>
-      </div>
+        <div class="subscribe flex">
+          <h2 class="footer-heading">Sign up for our newsletter</h2>
+          <p>
+            Get the latest news about upcoming exhibits and events. Subscribers
+            also get a 10% discount in our Shop & Dine area.
+          </p>
+          <form action="subscribe-validation.html" class="subscribe-form flex">
+            <label class="visually-hidden" for="email">email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              required
+            /><button class="cta">Subscribe</button>
+            <!--
+            <a href="subscribe.html" class="cta">Subscribe</a>-->
+          </form>
+        </div>
+      </section>
 
-      <div class="footer-bottom container">
+      <section
+        aria-label="links to other pages on the website and copyright information"
+        class="footer-bottom flex"
+      >
         <ul>
           <li><a href="index.html">home</a></li>
           <li><a href="visit.html">visit</a></li>
@@ -206,7 +213,7 @@
           Copyright &copy; 2022 | Michael Nilsson - Front-End Development,
           Noroff
         </p>
-      </div>
+      </section>
     </footer>
   </body>
 </html>

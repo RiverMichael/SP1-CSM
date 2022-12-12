@@ -41,164 +41,184 @@
     </header>
 
     <main>
-      <section class="intro visit-heading wrapper">
-        <h1>Visit Us</h1>
+      <section class="visit-heading intro container">
+        <h1 class="big-heading">Visit Us</h1>
       </section>
 
-      <section class="visit-info split wrapper">
-        <div class="hours container">
-          <h2>Hours</h2>
-          <img
-            src="images/icons/icon_clock.svg"
-            alt="clock to show the opening hours"
-            class="icon"
-          />
-          <div>
-            <p class="highlight">Monday</p>
-            <p>Closed</p>
+      <section class="visit flex container">
+        <div class="visit-wrapper even-columns">
+          <div class="hours flex">
+            <h2 class="small-heading">Hours</h2>
+            <img
+              src="images/icons/icon_clock.svg"
+              alt="clock to show the opening hours"
+              class="icon"
+            />
+            <div>
+              <p class="highlight">Monday</p>
+              <p>Closed</p>
+            </div>
+            <div>
+              <p class="highlight">Tuesday - Friday</p>
+              <p>10:00 - 19:00</p>
+            </div>
+            <div>
+              <p class="highlight">Saturday - Sunday</p>
+              <p>10:00 - 16:00</p>
+            </div>
           </div>
-          <div>
-            <p class="highlight">Tuesday - Friday</p>
-            <p>10:00 - 19:00</p>
-          </div>
-          <div>
-            <p class="highlight">Saturday - Sunday</p>
-            <p>10:00 - 16:00</p>
-          </div>
-        </div>
 
-        <div class="location container">
-          <h2>Location</h2>
-          <img
-            src="images/icons/icon_location.svg"
-            alt="location marker to show the adress for the museum"
-            class="icon"
-          />
-          <img
-            src="images/csm_logo.png"
-            alt="logotype for the Community Science Museum"
-            class="logo-small"
-          />
-          <p>Kjelsåsveien 143 0491, Oslo</p>
-        </div>
+          <div class="location flex">
+            <h2 class="small-heading">Location</h2>
+            <img
+              src="images/icons/icon_location.svg"
+              alt="location marker to show the adress for the museum"
+              class="icon"
+            />
+            <img
+              src="images/csm_logo.png"
+              alt="logotype for the Community Science Museum"
+              class="logo-small"
+            />
+            <p>Kjelsåsveien 143 0491, Oslo</p>
+          </div>
 
-        <div class="admission container">
-          <h2>Admission</h2>
-          <img
-            src="images/icons/icon_ticket.svg"
-            alt="colorful admission ticket"
-            class="icon"
-          />
-          <p>We believe science should be avalible to everyone.</p>
-          <p>Therefor the admission to the museum is FREE for all.</p>
+          <div class="admission flex">
+            <h2 class="small-heading">Admission</h2>
+            <img
+              src="images/icons/icon_ticket.svg"
+              alt="colorful admission ticket"
+              class="icon"
+            />
+            <p>We believe science should be avalible to everyone.</p>
+            <p>
+              Therefor the admission to the museum is <strong>FREE</strong> for
+              all.
+            </p>
+          </div>
         </div>
       </section>
 
       <section class="explore">
-        <h2>Explore the museum</h2>
-        <div class="explore-box container">
-          <section class="explore-item kids split">
-            <img
-              src="images/kids_science.jpg"
-              alt="young girl experementing with big science machine"
-            />
-            <div class="explore-item__info container">
-              <h3>Kids</h3>
-              <p>
-                Learn about Newtonian physics from our bumper swing, or why not
-                travel back in time and meet our resident Woolly Mammoth?
-              </p>
-              <p>
-                Join our Young Stars Club or why not spend your next holiday
-                learning more about science in our Holiday Club
-              </p>
+        <h2 class="medium-heading">Explore the museum</h2>
+        <div class="flex">
+          <section class="explore-item kids">
+            <div class="explore-item__wrapper split reverse container">
+              <div class="explore-item__info flex">
+                <h3 class="small-heading">Kids</h3>
+                <p>
+                  Learn about Newtonian physics from our bumper swing, or why
+                  not travel back in time and meet our resident Woolly Mammoth?
+                </p>
+                <p>
+                  Join our Young Stars Club or why not spend your next holiday
+                  learning more about science in our Holiday Club
+                </p>
+              </div>
+              <picture class="explore-item__image">
+                <img
+                  src="images/kids_science.jpg"
+                  alt="young girl experementing with big science machine"
+              /></picture>
             </div>
           </section>
 
-          <section class="explore-item family split reverse">
-            <img
-              src="images/family.jpg"
-              alt="family watching science exhibit in a monter at the museum"
-            />
-            <div class="explore-item__info container">
-              <h3>The family</h3>
-              <p>
-                Our interactive exhibits offer interesting experiences for the
-                whole family, not just for the young ones.
-              </p>
-              <p>
-                Bring the family and explore the world of science and enjoy a
-                healthy lunch at our café.
-              </p>
+          <section class="explore-item family">
+            <div class="explore-item__wrapper split container">
+              <div class="explore-item__info flex">
+                <h3 class="small-heading">The family</h3>
+                <p>
+                  Our interactive exhibits offer interesting experiences for the
+                  whole family, not just for the young ones.
+                </p>
+                <p>
+                  Bring the family and explore the world of science and enjoy a
+                  healthy lunch at our café.
+                </p>
+              </div>
+              <picture class="explore-item__image">
+                <img
+                  src="images/family.jpg"
+                  alt="family watching science exhibit in a monter at the museum"
+              /></picture>
             </div>
           </section>
 
-          <section class="explore-item teachers split">
-            <img
-              src="images/teacher.jpg"
-              alt="teacher writing on a white board"
-            />
-            <div class="explore-item__info container">
-              <h3>Teachers</h3>
-              <p>
-                Our team is on hand to give your students guided tours of the
-                museum, teach them in our learning laboratory, and provide great
-                video presentations that will excite and inspire them.
-              </p>
-              <p>
-                Please get in touch with us here to find out more about our
-                facilities and to arrange a time to bring your students through
-                for a visit.
-              </p>
+          <section class="explore-item teachers">
+            <div class="explore-item__wrapper split reverse container">
+              <div class="explore-item__info flex">
+                <h3 class="small-heading">Teachers</h3>
+                <p>
+                  Our team is on hand to give your students guided tours of the
+                  museum, teach them in our learning laboratory, and provide
+                  great video presentations that will excite and inspire them.
+                </p>
+                <p>
+                  Please get in touch with us here to find out more about our
+                  facilities and to arrange a time to bring your students
+                  through for a visit.
+                </p>
+              </div>
+              <picture class="explore-item__image">
+                <img
+                  src="images/teacher.jpg"
+                  alt="teacher writing on a white board"
+              /></picture>
             </div>
           </section>
         </div>
       </section>
 
-      <section class="shop-dine wrapper">
-        <h2>Shop &amp; Dine</h2>
-        <div class="shop-dine__box container">
-          <div class="shop-dine__item split">
-            <img src="images/museum-shop.jpg" alt="the museum gift shop" />
-            <div>
-              <h3>Shop</h3>
+      <section class="shop-dine container">
+        <h2 class="medium-heading">Shop &amp; Dine</h2>
+        <div class="shop-dine__wrapper split">
+          <div class="shop-dine__item flex">
+            <div class="shop-dine__info flex">
+              <h3 class="small-heading">Shop</h3>
               <p>
                 Our shop offers a range of memorabilia from the museum as well
                 as great gifts and activity packs that allow you to continue to
                 explore science even after you've left the museum.
               </p>
             </div>
+            <picture class="shop-dine_image">
+              <img src="images/museum-shop.jpg" alt="the museum gift shop"
+            /></picture>
           </div>
 
-          <div class="shop-dine__item split reverse">
-            <img
-              src="images/waitressia.jpg"
-              alt="the robot waiter in the museum café"
-            />
-            <div>
-              <h3>Dine</h3>
+          <div class="shop-dine__item flex">
+            <div class="shop-dine__info flex">
+              <h3 class="small-heading">Dine</h3>
               <p>
                 There is a café attached to the museum where you can get light
                 lunches, soft drinks, coffee, snacks and more.
               </p>
               <p>Here you can also meet our serving robot Waitressia.</p>
             </div>
+            <picture class="shop-dine_image">
+              <img
+                src="images/waitressia.jpg"
+                alt="the robot waiter in the museum café"
+            /></picture>
           </div>
         </div>
       </section>
 
-      <section class="tours wrapper">
-        <h2>Guided Tours</h2>
-        <p>
-          We offer hourly guided tours of the museum. For groups of 6 people or
-          more, please <a href="contact.html" class="highlight">contact</a> us
-          to arrange the tour. The tour cost 70 NOK per person and include a
-          printed guide to the museum.
-        </p>
+      <section class="tours">
+        <div class="tours__wrapper flex container">
+          <h2 class="medium-heading">Guided Tours</h2>
+          <p>
+            We offer hourly guided tours of the museum. For groups of 6 people
+            or more, please
+            <a href="contact.html" class="highlight">contact</a> us to arrange
+            the tour. The tour cost 70 NOK per person and include a printed
+            guide to the museum.
+          </p>
+        </div>
       </section>
 
-      <section class="accessibility">
-        <div class="accessibility-info">
+      <section class="accessibility flex">
+        <div class="accessibility__wrapper container">
           <h2>Accessibility</h2>
           <p>
             Our museum is for everybody. We have wheelchair accessibility ramps
@@ -209,8 +229,8 @@
     </main>
 
     <footer>
-      <div class="social-media split">
-        <h2>Follow us on social media</h2>
+      <section class="social-media split">
+        <h2 class="footer-heading">Follow us on social media</h2>
         <div class="social-media__icons">
           <a href="https://www.twitter.com">
             <img
@@ -231,10 +251,13 @@
               class="icon"
           /></a>
         </div>
-      </div>
+      </section>
 
-      <div class="footer-info split wrapper">
-        <div class="hours container">
+      <section
+        aria-label="opening hours and address"
+        class="footer-info even-columns container"
+      >
+        <div class="hours flex">
           <img
             src="images/icons/icon_clock.svg"
             alt="clock to show the opening hours"
@@ -253,7 +276,7 @@
             <p>10:00 - 16:00</p>
           </div>
         </div>
-        <div class="location container">
+        <div class="location flex">
           <img
             src="images/icons/icon_location.svg"
             alt="location marker to show the adress for the museum"
@@ -266,28 +289,32 @@
           />
           <p>Kjelsåsveien 143 0491, Oslo</p>
         </div>
-      </div>
 
-      <div class="subscribe container wrapper">
-        <h2>Sign up for our newsletter</h2>
-        <p>
-          Get the latest news about upcoming exhibits and events. Subscribers
-          also get a 10% discount in our Shop & Dine area.
-        </p>
-        <form class="subscribe-form container">
-          <label class="visually-hidden" for="email">email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email address"
-            required
-          />
-          <a href="subscribe.html" class="cta">Subscribe</a>
-        </form>
-      </div>
+        <div class="subscribe flex">
+          <h2 class="footer-heading">Sign up for our newsletter</h2>
+          <p>
+            Get the latest news about upcoming exhibits and events. Subscribers
+            also get a 10% discount in our Shop & Dine area.
+          </p>
+          <form action="subscribe-validation.html" class="subscribe-form flex">
+            <label class="visually-hidden" for="email">email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              required
+            /><button class="cta">Subscribe</button>
+            <!--
+            <a href="subscribe.html" class="cta">Subscribe</a>-->
+          </form>
+        </div>
+      </section>
 
-      <div class="footer-bottom container">
+      <section
+        aria-label="links to other pages on the website and copyright information"
+        class="footer-bottom flex"
+      >
         <ul>
           <li><a href="index.html">home</a></li>
           <li><a href="visit.html" class="active">visit</a></li>
@@ -300,7 +327,7 @@
           Copyright &copy; 2022 | Michael Nilsson - Front-End Development,
           Noroff
         </p>
-      </div>
+      </section>
     </footer>
   </body>
 </html>

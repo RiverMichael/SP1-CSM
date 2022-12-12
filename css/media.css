@@ -1,72 +1,46 @@
 @media (min-width: 600px) {
-    
     .split {
         flex-direction: row;
     }
-
-    .exhibits {
-        gap: 80px;
-    }
-
-    .exhibits-item > *, .contact-form__box > * {
+        /*
+    .split > * {
         flex: 1;
-    }
-
-    .exhibits-item {
-        align-items: center;
-    }
-
-    .exhibits-item img {
-        border-radius: 10px 0px 0px 10px;
-    }
-
-    .evolution img, .robotics img {
-        border-radius: 0px 10px 10px 0px;
-    }
+    }   */
 
     .reverse {
         flex-direction: row-reverse;
     }
 
-    .young-stars__box, .contact {
+    .even-columns {
+        grid-auto-flow: column;
+    }
+
+    .visit-wrapper {
+        grid-auto-columns: 1fr;
+    }
+
+    #cosmology img, #biology img, #ecology img {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    #robotics img, #evolution img {
+    border-radius: 0px 10px 10px 0px;
+    }
+
+    /**/
+    
+    .contact {
         max-width: 500px;
     }
 
-    .visit-today__info {
-        flex-direction: unset;
-    }
-
-    .visit-today__info, .social-media {
+    .social-media {
         justify-content: center;
     }
 
     .social-media {
         padding: 50px 0px;
     }
-
-    .visit-info {
-        padding: 30px;
-        align-items: flex-start;
-        justify-content: space-between;
-    }
-
-    .explore-item, .shop-dine__item {
-        gap: 50px;
-    }
-
-    .tours {
-        max-width: 400px;
-        padding: 50px;
-    }
-
-    .events {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .shop-dine__box {
-        gap: 100px;
-    }
-
+        
     .contact-form__box {
         flex-wrap: wrap;
     }
@@ -75,10 +49,68 @@
         flex: 1 0 100%;
     }
 
+    .shop-dine__wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: var(--space-50);
+        align-items: flex-start;
+        justify-content: space-between;
+       }
+    
+       .tours__wrapper {
+        max-width: 552px;
+        }
+
 }
 
 @media (min-width: 900px) {
+    section {
+        margin: var(--space-100) 0px;
+    }
 
+    .home-image__wrapper {
+        min-height: 60vh;
+    }
+
+    #night img, #energetica img, #birthdays img {
+        transform: rotate(-15deg);
+    }
+    
+    #aeronautics img, #holiday-club img {
+        transform: rotate(15deg);
+    }
+
+    #night img {
+        box-shadow: -30px -30px 0px var(--clr-night);
+    }
+    
+    #aeronautics img {
+        box-shadow: 30px 30px 0px var(--clr-aeronautics);
+    }
+    
+    #energetica img {
+        box-shadow: -30px -30px 0px var(--clr-energetica);
+    }
+    
+    #holiday-club img {
+        box-shadow: 30px 30px 0px var(--clr-holiday-club);
+    }
+
+    #birthdays img {
+        box-shadow: -30px -30px 0px var(--clr-birthdays-box);
+    }
+        /*
+    .visit-wrapper {
+        max-width: 800px;
+    }   */
+
+    .shop-dine {
+        max-width: 900px;
+        gap: var(--space-100);
+    }
+
+    /**/
+    
     header {
         grid-template-columns: 1fr auto;
         align-items: center;
@@ -112,43 +144,40 @@
         font-size: 1rem;
     }
 
-    footer {
-        grid-template-columns: 1fr auto auto 1fr;
-    }
-
-    .footer-info {
-        grid-column: 2;
-    }
-
-    .social-media, .footer-bottom {
-        grid-column: -1/1;
-    }
-
-    .home-image {
-        min-height: 60vh;
-    }
-
-    .events {
-        gap: 80px;
-    }
-
-    .visit-info, .contact-form {
+    .contact-form {
         max-width: 800px;
     }
 
-    .birthdays {
-        padding: 150px 0px;
+    .visit-today__wrapper {
+        max-width: 800px;
+        gap: var(--space-100);
     }
-
-    .birthdays img {
-        transform: rotate(-15deg);
-        box-shadow: -30px -30px 0px #FCB4FD;
-    }
-
+    
 }
 
 @media (min-width: 1200px) {
+    header img {
+        width: 200px;
+    }
+    .container {
+        max-width: 1200px;
+    }
 
+    .home-image__wrapper {
+        min-height: 70vh;
+    }
+
+    .young-stars {
+        min-height: 60vh;
+    }
+
+    .birthdays__wrapper {
+        max-width: 1000px;
+    }
+
+    /**/
+
+        /*
     h1 {
         font-size: 3.8rem;
     }
@@ -167,27 +196,7 @@
 
     footer p {
         font-size: 1rem;
-    }
-
-    header img {
-        width: 200px;
-    }
-
-    .featured, .shop-dine, .events-info, .birthdays-box {
-        max-width: 1000px;
-    }
-
-    .upcoming {
-        max-width: 900px;
-    }
-
-    .exhibits, .visit-today__info {
-        gap: 150px;
-    }
-
-    .events {
-        gap: 100px;
-    }
+    } */
 
     .contact {
         max-width: 550px;

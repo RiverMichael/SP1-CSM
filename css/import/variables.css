@@ -1,15 +1,47 @@
 :root {
-    --ff-header: 'Ubuntu', sans-serif;
+    /* Font family */
+    --ff-heading: 'Ubuntu', sans-serif;
     --ff-body: 'Source Sans Pro', sans-serif;
+    
+    /* Font size */
+    --fs-380: 3.8rem;
+    --fs-300: 3rem;
+    --fs-200: 2rem;
+    --fs-150: 1.5rem;
+    --fs-125: 1.25rem;
+    --fs-100: 1rem;
+    --fs-80: 0.8rem;
+    --fs-70: 0.7rem;
+
+    /* Font weight */
+    --fw-700: 700;
+    --fw-500: 500;
+    --fw-400: 400;
+    --fw-300: 300;
+    
+
+    /* Colors */
     --clr-white: #FBFCFD;
     --clr-darkblue: #00101C;
     --clr-grey: #F1F2F4;
-    --clr-visit: #39324D;
+    --clr-visit: #8B6DD9;
     --clr-exhibits: #187B75;
-    --clr-events-dark: #114570;
-    --clr-events-light: #84C5F9;
+    --clr-events: #114570;
     --clr-about: #B44F7F;
     --clr-get-involved: #7A9796;
     --clr-link: #4A1C03;
     --clr-active: #4E7795;
+    --clr-night: rgba(28, 17, 12, 0.9);
+    --clr-aeronautics: rgba(39, 40, 42, 0.9);
+    --clr-energetica: rgba(0, 10, 28, 0.9);
+    --clr-holiday-club: rgba(44, 38, 38, 0.9);
+    --clr-birthdays-box: #FCB4FD;
+
+    /* Spaces */
+    --space-10: 10px;
+    --space-20: 20px;
+    --space-30: 30px;
+    --space-50: 50px;
+    --space-100: 100px;
 }
+

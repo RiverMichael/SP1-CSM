@@ -5,10 +5,15 @@
     filter: drop-shadow(4px 4px 4px rgba(24, 123, 117, 0.25));
 }
 
-.exhibits-heading, h2 {
+.exhibits-heading, #biology h3 {
     color: var(--clr-exhibits);
 }
 
-h2 {
-    margin-bottom: 20px;
+#evolution {
+    background: var(--clr-exhibits);
 }
+
+#evolution h3, #evolution p {
+    color: var(--clr-white);
+}
+

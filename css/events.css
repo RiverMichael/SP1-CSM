@@ -1,51 +1,63 @@
 /* EVENTS PAGE */
 
 .events-heading {
-    color: var(--clr-events-dark);
+    color: var(--clr-events);
     text-shadow: 4px 4px 4px rgba(17, 69, 112, 0.25);
     filter: drop-shadow(4px 4px 4px rgba(17, 69, 112, 0.25));
 }
 
-.energetica {
-    background: #01001D;
+.birthdays__wrapper {
+    align-items: center;
+}
+    /*
+.events__wrapper {
+    max-width: 1200px;
+}   */
+
+.birthdays__wrapper {
+    gap: var(--space-50);
 }
 
-.energetica:hover {
-    box-shadow: 0px 4px 4px #01001D;
+.birthdays-image {
+    padding-inline: var(--space-20);
 }
 
-.holiday-club {
-    background: #161216;
+.birthdays-info {
+    gap: var(--space-10);
+    text-align: -moz-center;
 }
 
-.holiday-club:hover {
-    box-shadow: 0px 4px 4px #161216;
+#energetica h3 {
+    color: var(--clr-energetica);
+}
+
+#holiday-club h3 {
+    color: var(--clr-holiday-club);
+}
+
+#energetica img, .birthdays img {
+    transform: rotate(-10deg);
+}
+
+#holiday-club img {
+    transform: rotate(10deg);
+    box-shadow: 15px 15px 0px var(--clr-holiday-club);
+}
+
+#energetica img {
+    box-shadow: -15px -15px 0px var(--clr-energetica);
 }
 
 .birthdays {
     background: rgba(52, 161, 246, 0.6);
-    margin: 100px auto;
-}
-
-.birthdays-box {
-    align-items: center;
-    gap: 50px;
-}
-
-.birthdays-box > * {
-    flex: 1;
+    padding: 100px 0px;
 }
 
 .birthdays img {
+    box-shadow: -15px -15px 0px var(--clr-birthdays-box);
     max-width: 300px;
     max-height: 300px;
-    transform: rotate(-10deg);
-    box-shadow: -15px -15px 0px #FCB4FD;
 } 
-
-.birthdays-info {
-    gap: 20px;
-}
 
 .birthdays-info h2 {
     color: var(--clr-darkblue);

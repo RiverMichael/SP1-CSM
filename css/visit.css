@@ -1,78 +1,67 @@
 /*  VISIT PAGE */
 
 .visit-heading {
-    text-shadow: 4px 4px 4px rgba(57, 50, 77, 0.25);
-    filter: drop-shadow(4px 4px 4px rgba(57, 50, 77, 0.25));
+    text-shadow: 4px 4px 4px rgba(139, 109, 217, 0.25);
+    filter: drop-shadow(4px 4px 4px rgba(139, 109, 217, 0.25));
 }
 
-h1, h2, .shop-dine__item h3, .kids h3 {
+.visit-heading, .visit h2, .explore h2, .shop-dine h2, .shop-dine h3, .tours h2 {
     color: var(--clr-visit);
 }
 
-.visit-info {
-    text-align: center;
-    box-shadow: 0px 4px 4px rgba(0, 16, 28, 0.25);
-    border-radius: 2px;
-    padding: 30px 0px;
-    margin: 150px auto 100px;
-}
-
-.visit-info, .admission, .explore-item, .shop-dine__item {
+.visit {
     align-items: center;
 }
 
-h2, .shop-dine__item h3 {
-    margin-bottom: 20px;
+.visit-wrapper {
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 16, 28, 0.25);
+    border-radius: 2px;
+    padding-block: var(--space-30);
+    justify-items: center;
+    gap: var(--space-30);
+    max-width: 800px;
 }
 
-.admission {
-    max-width: 190px;
+.admission, .explore-item__wrapper, .shop-dine__item  {
+    align-items: center;
 }
 
-.admission {
-    gap: 20px;
-}
-
-.explore h2 {
-    max-width: 80%;
-    margin: 0px auto 20px;
-}
-
-.explore-box {
-    gap: 40px;
+.admission, .shop-dine__item {
+    gap: var(--space-20);
 }
 
 .explore-item {
-    padding: 50px 10%;
-    justify-content: space-evenly;
+    padding-block: var(--space-50);
+    margin-block: var(--space-30);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.visit-info, .explore-item, .explore-item__info, .shop-dine__item {
-    gap: 30px;
+.explore-item__wrapper {
+    gap: var(--space-30);
 }
 
-.shop-dine__box {
-    gap: 50px;
+.explore-item__info, .shop-dine__info {
+    gap: var(--space-10);
+    padding: var(--space-20);
 }
 
-.explore-item > *, .shop-dine__box > *, .shop-dine__item > * {
-    flex: 1;
+.explore-item__image {
+    text-align: -moz-center;
 }
 
 .explore-item img {
     border-radius: 50%;
     max-width: 350px;
-    max-height: 350px;  
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.explore-item__info {
-    max-width: 400px;
 }
 
 .kids {
     background: rgba(139, 109, 217, 0.51);
+}
+
+.kids h3 {
+    color: #4C3C75;
 }
 
 .family {
@@ -92,38 +81,48 @@ h2, .shop-dine__item h3 {
     color: #312723;
 }
 
+.shop-dine__wrapper {
+    flex-direction: column;
+    gap: var(--space-30);
+    align-items: center;
+    margin-top: var(--space-30);
+}
+
+.shop-dine__item {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    max-width: 400px;
+}
+
 .shop-dine__item img {
     border-radius: 10px;
 }
 
-.tours {
+.shop-dine_image {
+    text-align: -moz-center;
+}
+
+.tours__wrapper {
     background: var(--clr-white);
-    padding: 50px 20px;
     box-shadow: 0px 4px 10px var(--clr-visit);
     border-radius: 2px;
-    margin: 100px auto;
+    padding: var(--space-30);
+    gap: var(--space-10);
 }
 
 .accessibility {
     background: url(../images/braille_display.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 20vh;
-    position: relative;
-    margin: 200px auto 100px;
-}
-
-.accessibility h2, .accessibility p {
+    min-height: 40vh;
     color: var(--clr-white);
+    justify-content: center;
 }
 
-.accessibility-info {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
+.accessibility__wrapper { 
     max-width: 420px;
     background-color: #000;
     opacity: 0.8;
-    padding: 20px;
-}
+    padding: var(--space-20);
+    gap: var(--space-10);
+}  

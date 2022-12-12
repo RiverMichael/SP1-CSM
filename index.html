@@ -40,151 +40,154 @@
     </header>
 
     <main>
-      <section class="home-intro wrapper">
-        <h1>Explore the world of science</h1>
-        <p class="wrapper">
-          Come join us at the Community Science Museum where we are committed to
-          making science accessible to all
-        </p>
+      <section class="home-intro flex container">
+        <div class="home-intro__wrapper flex">
+          <h1 class="big-heading">Explore the world of science</h1>
+          <p>
+            Come join us at the Community Science Museum where we are committed
+            to making science accessible to all
+          </p>
+        </div>
       </section>
 
-      <div class="home-image"></div>
+      <div class="home-image__wrapper"></div>
 
-      <section class="featured wrapper">
-        <h2>Must-see exhibits</h2>
-        <div class="exhibits container">
-          <div class="exhibits-item cosmology split">
-            <div>
-              <a href="exhibits.html">
+      <section class="exhibits">
+        <div class="container">
+          <h2 class="medium-heading">Must-see exhibits</h2>
+          <div class="flex">
+            <section class="exhibits-item split reverse" id="cosmology">
+              <div class="exhibits-item__info flex">
+                <h3 class="small-heading">Cosmology</h3>
+                <p>
+                  Our fantastic exhibition, "The Sky Above Us" explores the
+                  night sky and what we can see and know about the universe
+                  around us.
+                </p>
+              </div>
+              <picture>
                 <img
                   src="images/northern-lights.jpg"
                   alt="the colorful northern lights shining over a lake"
                   class="exhibit-image"
-              /></a>
-            </div>
-            <div class="exhibits-item__info container">
-              <a href="exhibits.html">
-                <h3>Cosmology</h3>
-                <p>
-                  Our fantastic exhibition, “The Sky Above Us” explores the
-                  night sky and what we can see and know about the universe
-                  around us.
-                </p></a
-              >
-            </div>
-          </div>
+              /></picture>
+            </section>
 
-          <div class="exhibits-item robotics split reverse">
-            <a href="exhibits.html">
-              <img
-                src="images/robots.jpg"
-                alt="golden robot child playing with a smaller white robot"
-                class="exhibit-image"
-            /></a>
-            <div class="exhibits-item__info container">
-              <a href="exhibits.html">
-                <h3>Robotics and AI</h3>
+            <section class="exhibits-item split" id="robotics">
+              <div class="exhibits-item__info flex">
+                <h3 class="small-heading">Robotics and AI</h3>
                 <p>
                   The information revolution is here and robotics and artificial
                   intelligence are the science of the future.
-                </p></a
-              >
-            </div>
-          </div>
+                </p>
+              </div>
+              <picture>
+                <img
+                  src="images/robots.jpg"
+                  alt="golden robot child playing with a smaller white robot"
+                  class="exhibit-image"
+              /></picture>
+            </section>
 
-          <div class="exhibits-item ecology split">
-            <a href="exhibits.html">
-              <img
-                src="images/boxed-water.jpg"
-                alt="hand holding a boxed carton of water under the water surface"
-                class="exhibit-image"
-            /></a>
-            <div class="exhibits-item__info container">
-              <a href="exhibits.html">
-                <h3>Ecology</h3>
+            <section class="exhibits-item split reverse" id="ecology">
+              <div class="exhibits-item__info flex">
+                <h3 class="small-heading">Ecology</h3>
                 <p>
                   We unpack the dangers we currently face including global
                   warming, extinction of species, and pollution.
-                </p></a
-              >
-            </div>
+                </p>
+              </div>
+              <picture>
+                <img
+                  src="images/boxed-water.jpg"
+                  alt="hand holding a boxed carton of water under the water surface"
+                  class="exhibit-image"
+              /></picture>
+            </section>
           </div>
         </div>
       </section>
 
-      <article class="young-stars">
-        <div class="young-stars__box container wrapper">
-          <h2>Young Stars Club</h2>
-          <p>
-            Every Saturday between 10:00 and 13:00 our Young Stars Club member's
-            meets to explore and experiment together with our team of experts.
-          </p>
-          <p>
-            Don't worry! It's free to be a YoungStar. All you have to do is sign
-            up at our information desk at the museum.
-          </p>
-          <p>
-            As a Young Star member you also get a free t-shirt, baseball cap and
-            priority to our popular Holiday Clubs.
-          </p>
+      <article class="young-stars flex">
+        <div class="young-stars__wrapper flex container">
+          <h2 class="medium-heading">Young Stars Club</h2>
+          <div class="young-stars__info flex">
+            <p>
+              Every Saturday between 10:00 and 13:00 our Young Stars Club
+              member's meets to explore and experiment together with our team of
+              experts.
+            </p>
+            <p>
+              Don't worry! It's free to be a YoungStar. All you have to do is
+              sign up at our information desk at the museum.
+            </p>
+            <p>
+              As a Young Star member you also get a free t-shirt, baseball cap
+              and priority to our popular Holiday Clubs.
+            </p>
+          </div>
         </div>
       </article>
 
-      <section class="upcoming wrapper">
-        <h2>Upcoming events</h2>
-        <div class="events">
-          <div class="events-item night">
-            <a href="events.html">
-              <img
-                src="images/museum_night.jpg"
-                alt="a woolly mammoth skelleton in the museum at night"
-              />
-              <div class="events-item__info container">
-                <h3>Night in the museum</h3>
+      <section class="events">
+        <div class="container">
+          <h2 class="medium-heading">Upcoming events</h2>
+          <div class="events__wrapper flex">
+            <section class="events-item split reverse" id="night">
+              <div class="events-item__info flex">
+                <h3 class="small-heading">Night in the museum</h3>
+                <p>
+                  Get your family together for an exciting night in the museum
+                  as you sleep over beside dinosaurs and science displays.
+                </p>
                 <p>
                   Bring your own sleeping bag and get ready to rough it as we go
                   exploring and sleep over beside dinosaurs.
                 </p>
-              </div></a
-            >
-          </div>
-
-          <div class="events-item aeronautics">
-            <a href="events.html">
-              <img
-                src="images/moon-astronaut.jpg"
-                alt="a digital astronaut sitting on a moon in the dark galaxy"
-              />
-              <div class="events-item__info container">
-                <h3>Aeronautics and space</h3>
+              </div>
+              <picture class="events-item__image">
+                <img
+                  src="images/museum_night.jpg"
+                  alt="woolly mammoth skelleton in the museum at night"
+              /></picture>
+            </section>
+            <section class="events-item split" id="aeronautics">
+              <div class="events-item__info flex">
+                <h3 class="small-heading">Aeronautics and space</h3>
                 <p>
                   Professor Sheila Widnall delivers a lecture on aeronautics and
-                  where the future lies in exciting “space”.
+                  where the future lies in this exciting “space”.
                 </p>
-              </div></a
-            >
+              </div>
+              <picture class="events-item__image">
+                <img
+                  src="images/moon-astronaut.jpg"
+                  alt="digital astronaut sitting on a moon in the dark galaxy"
+              /></picture>
+            </section>
           </div>
         </div>
       </section>
 
-      <section class="visit-today">
-        <div class="visit-today__info split wrapper">
-          <div class="visit-today__text container">
-            <h2>Visit us today</h2>
+      <section class="visit-today flex">
+        <div class="visit-today__wrapper split container">
+          <div class="visit-today__text flex">
+            <h2 class="medium-heading">Visit us today</h2>
             <p>Visit the museum and watch science come to life</p>
             <a href="visit.html" class="cta cta-execute">visit us today</a>
           </div>
-          <img
-            src="images/kids_ai.jpg"
-            alt="two children watching science through AR glases"
-          />
+          <picture>
+            <img
+              src="images/kids_ai.jpg"
+              alt="two children watching science through AR glases"
+          /></picture>
         </div>
       </section>
     </main>
 
     <footer>
-      <div class="social-media split">
-        <h2>Follow us on social media</h2>
+      <section class="social-media split">
+        <h2 class="footer-heading">Follow us on social media</h2>
         <div class="social-media__icons">
           <a href="https://www.twitter.com">
             <img
@@ -205,10 +208,13 @@
               class="icon"
           /></a>
         </div>
-      </div>
+      </section>
 
-      <div class="footer-info split wrapper">
-        <div class="hours container">
+      <section
+        aria-label="opening hours and address"
+        class="footer-info even-columns container"
+      >
+        <div class="hours flex">
           <img
             src="images/icons/icon_clock.svg"
             alt="clock to show the opening hours"
@@ -227,7 +233,7 @@
             <p>10:00 - 16:00</p>
           </div>
         </div>
-        <div class="location container">
+        <div class="location flex">
           <img
             src="images/icons/icon_location.svg"
             alt="location marker to show the adress for the museum"
@@ -240,28 +246,32 @@
           />
           <p>Kjelsåsveien 143 0491, Oslo</p>
         </div>
-      </div>
 
-      <div class="subscribe container wrapper">
-        <h2>Sign up for our newsletter</h2>
-        <p>
-          Get the latest news about upcoming exhibits and events. Subscribers
-          also get a 10% discount in our Shop & Dine area.
-        </p>
-        <form class="subscribe-form container">
-          <label class="visually-hidden" for="email">email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email address"
-            required
-          />
-          <a href="subscribe.html" class="cta">Subscribe</a>
-        </form>
-      </div>
+        <div class="subscribe flex">
+          <h2 class="footer-heading">Sign up for our newsletter</h2>
+          <p>
+            Get the latest news about upcoming exhibits and events. Subscribers
+            also get a 10% discount in our Shop & Dine area.
+          </p>
+          <form action="subscribe-validation.html" class="subscribe-form flex">
+            <label class="visually-hidden" for="email">email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              required
+            /><button class="cta">Subscribe</button>
+            <!--
+            <a href="subscribe.html" class="cta">Subscribe</a>-->
+          </form>
+        </div>
+      </section>
 
-      <div class="footer-bottom container">
+      <section
+        aria-label="links to other pages on the website and copyright information"
+        class="footer-bottom flex"
+      >
         <ul>
           <li><a href="index.html" class="active">home</a></li>
           <li><a href="visit.html">visit</a></li>
@@ -274,7 +284,7 @@
           Copyright &copy; 2022 | Michael Nilsson - Front-End Development,
           Noroff
         </p>
-      </div>
+      </section>
     </footer>
   </body>
 </html>

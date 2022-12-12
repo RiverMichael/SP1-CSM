@@ -34,13 +34,9 @@ li a:hover {
     text-transform: uppercase;
     text-align: center;
     font-family: var(--ff-header);
-    font-weight: 500;
-    font-size: 1rem;
+    font-weight: var(--fw-500);
+    font-size: var(--fs-100);
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-}
-
-.cta-execute {
-    background: var(--clr-about);
 }
 
 .cta:hover {
@@ -52,4 +48,13 @@ li a:hover {
 .cta:active {
     background: var(--clr-events-dark);
     color: var(--clr-darkblue);
+}
+
+.cta-execute {
+    background: var(--clr-about);
+    border: 2px solid var(--clr-about);
+}
+
+.cta-execute:hover {
+    color: var(--clr-about);
 }
