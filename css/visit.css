@@ -41,7 +41,7 @@
     margin-inline: auto;
 }   
     
-.explore-item__info, .shop-dine__info, .tours__wrapper, .accessibility__wrapper{
+.explore-item__content, .shop-dine__item__content, .tours__wrapper, .accessibility__wrapper{
     gap: var(--size-100);
 }
 

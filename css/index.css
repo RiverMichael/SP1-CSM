@@ -20,7 +20,7 @@
     gap: var(--size-200);
 }
 
-.home-intro__wrapper, .visit-today__text {
+.home-intro__wrapper, .visit-today__content {
     text-align: center;
 }
 
@@ -58,11 +58,11 @@
     gap: var(--size-200);
 }
 
-.young-stars__info {
+.young-stars__content {
     max-width: 490px;
 }
 
-.young-stars__info, .visit-today__text {
+.young-stars__content, .visit-today__content {
     gap: var(--size-100);
 }
 
@@ -75,7 +75,7 @@
     padding-top: var(--size-700);
 }
 
-.visit-today__text {
+.visit-today__content {
     max-width: 250px;
 }
 

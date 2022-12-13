@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Explore our intriguing interactive science exhibits at the Community Science Museum"
+      content="Find out more about the interactive Community Science Musem"
     />
-    <title>Community Science Museum | Exhibits</title>
+    <title>Community Science Museum | About Us</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&family=Ubuntu:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
     <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/exhibits.css" rel="stylesheet" />
+    <link href="css/about.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
   </head>
   <body>
@@ -30,9 +30,9 @@
         <ul>
           <li><a href="index.html">home</a></li>
           <li><a href="visit.html">visit</a></li>
-          <li><a href="exhibits.html" class="active">exhibits</a></li>
+          <li><a href="exhibits.html">exhibits</a></li>
           <li><a href="events.html">events</a></li>
-          <li><a href="about.html">about</a></li>
+          <li><a href="about.html" class="active">about</a></li>
           <li><a href="contact.html">contact</a></li>
           <li><a href="getinvolved.html">get involved</a></li>
         </ul>
@@ -40,96 +40,49 @@
     </header>
 
     <main>
-      <section class="exhibits-heading intro container">
-        <h1 class="primary-heading">Exhibits</h1>
+      <section class="about-heading intro container">
+        <h1 class="primary-heading">About Us</h1>
       </section>
 
-      <section class="exhibits">
+      <article class="vision container">
+        <div class="vision__wrapper flex">
+          <h2 class="secondary-heading">Our vision</h2>
+          <div class="vision__content flex">
+            <p>
+              The aim of our museum is to create a space where everyone can
+              experience the wonders of our discoveries and perhaps even ignite
+              a lifelong passion to continue the exploration of the world around
+              us.
+            </p>
+            <p>
+              Over the course of human history, science has developed from our
+              early understanding of wind, fire, water and earth to exploring
+              everything from galaxies far away to the very building blocks of
+              life itself.
+            </p>
+            <p>
+              We believe science should not be confined to the textbook but
+              brought to life through exhibits. This is why we have over 1000
+              different exhibits on the many varied subjects of science to
+              explore. Many of these exhibits are designed for you to interact
+              with and play around to see science come to life.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <section class="involvment flex">
         <div class="container">
-          <h2 class="secondary-heading">Our exhibits</h2>
-          <div class="flex">
-            <section class="exhibits-item split-reverse reverse" id="cosmology">
-              <div class="exhibits-item__content flex">
-                <h3 class="third-heading">Cosmology</h3>
-                <p>
-                  Our fantastic exhibition, "The Sky Above Us" explores the
-                  night sky and what we can see and know about the universe
-                  around us.
-                </p>
-              </div>
-              <picture>
-                <img
-                  src="images/northern-lights.jpg"
-                  alt="the colorful northern lights shining over a lake"
-                  class="exhibit-image"
-              /></picture>
-            </section>
-
-            <section class="exhibits-item split-reverse" id="evolution">
-              <div class="exhibits-item__content flex">
-                <h3 class="third-heading">Evolution</h3>
-                <p>
-                  For centuries, philosophers and scientists have wrestled with
-                  the question of our origins. Where do we come from and how did
-                  we get here?
-                </p>
-              </div>
-              <picture>
-                <img
-                  src="images/evolution.jpg"
-                  alt="skelleton monkey climbing on a tree branch"
-                  class="exhibit-image"
-              /></picture>
-            </section>
-
-            <section class="exhibits-item split-reverse reverse" id="biology">
-              <div class="exhibits-item__content flex">
-                <h3 class="third-heading">Biology and medicine</h3>
-                <p>
-                  From micro-organisms to the human body, major breakthroughs in
-                  biology are offering us unique insights into the great wonders
-                  of the world.
-                </p>
-              </div>
-              <picture>
-                <img
-                  src="images/heart.jpg"
-                  alt="replica of the heart for learning purpose"
-                  class="exhibit-image"
-              /></picture>
-            </section>
-
-            <section class="exhibits-item split-reverse" id="robotics">
-              <div class="exhibits-item__content flex">
-                <h3 class="third-heading">Robotics and AI</h3>
-                <p>
-                  The information revolution is here and robotics and artificial
-                  intelligence are the science of the future.
-                </p>
-              </div>
-              <picture>
-                <img
-                  src="images/robots.jpg"
-                  alt="golden robot child playing with a smaller white robot"
-                  class="exhibit-image"
-              /></picture>
-            </section>
-
-            <section class="exhibits-item split-reverse reverse" id="ecology">
-              <div class="exhibits-item__content flex">
-                <h3 class="third-heading">Ecology</h3>
-                <p>
-                  We unpack the dangers we currently face including global
-                  warming, extinction of species, and pollution.
-                </p>
-              </div>
-              <picture>
-                <img
-                  src="images/boxed-water.jpg"
-                  alt="hand holding a boxed carton of water under the water surface"
-                  class="exhibit-image"
-              /></picture>
-            </section>
+          <div class="involvment__wrapper flex">
+            <h2 class="secondary-heading">
+              Would you like to help us grow and be able to keep science free
+              for the community?
+            </h2>
+            <p>
+              Are you interrested in supporting the museum, or maybe you would
+              like to be involved in our research?
+            </p>
+            <a href="getinvolved.html" class="cta">get involved</a>
           </div>
         </div>
       </section>
@@ -223,7 +176,7 @@
         <ul>
           <li><a href="index.html">home</a></li>
           <li><a href="visit.html">visit</a></li>
-          <li><a href="about.html">about</a></li>
+          <li><a href="about.html" class="active">about</a></li>
           <li><a href="contact.html">contact</a></li>
           <li><a href="getinvolved.html">get involved</a></li>
         </ul>

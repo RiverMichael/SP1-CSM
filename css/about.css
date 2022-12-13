@@ -1,0 +1,38 @@
+.about-heading {
+    text-shadow: 4px 4px 4px rgba(181, 101, 224, 0.25);
+    filter: drop-shadow(4px 4px 4px rgba(181, 101, 224, 0.25));
+}
+
+.about-heading, .vision h2 {
+    color: var(--clr-about);
+}
+
+.vision__wrapper {
+    gap: var(--size-300);
+    max-width: 710px;
+    margin-inline: auto;
+}
+
+.involvment__wrapper {
+    gap: var(--size-400);
+}
+
+.vision__content {
+    gap: var(--size-100);
+}
+
+.involvment {
+    background: var(--clr-about);
+    padding-block: var(--size-700);
+}
+
+.involvment__wrapper {
+    text-align: center;
+    color: var(--clr-white);
+    max-width: 650px;
+    align-items: center;
+}
+
+.involvment__wrapper p {
+    max-width: 380px;
+}
