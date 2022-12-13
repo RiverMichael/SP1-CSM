@@ -9,22 +9,17 @@
 .birthdays__wrapper {
     align-items: center;
 }
-    /*
-.events__wrapper {
-    max-width: 1200px;
-}   */
 
 .birthdays__wrapper {
-    gap: var(--space-50);
+    gap: var(--size-400);
 }
 
 .birthdays-image {
-    padding-inline: var(--space-20);
+    padding-inline: var(--size-200);
 }
 
 .birthdays-info {
-    gap: var(--space-10);
-    text-align: -moz-center;
+    gap: var(--size-100);
 }
 
 #energetica h3 {
@@ -45,7 +40,7 @@
 }
 
 #energetica img {
-    box-shadow: -15px -15px 0px var(--clr-energetica);
+    box-shadow: -15px 15px 0px var(--clr-energetica);
 }
 
 .birthdays {
@@ -54,11 +49,7 @@
 }
 
 .birthdays img {
-    box-shadow: -15px -15px 0px var(--clr-birthdays-box);
+    box-shadow: -15px -15px 0px #FCB4FD;
     max-width: 300px;
     max-height: 300px;
-} 
-
-.birthdays-info h2 {
-    color: var(--clr-darkblue);
 }

@@ -2,6 +2,9 @@
 
 .home-intro {
     min-height: 30vh;
+}
+
+.home-intro, .young-stars {
     justify-content: center;
 }
 
@@ -14,7 +17,14 @@
 }
 
 .home-intro__wrapper {
-    gap: var(--space-20);
+    gap: var(--size-200);
+}
+
+.home-intro__wrapper, .visit-today__text {
+    text-align: center;
+}
+
+.home-intro__wrapper, .young-stars, .visit-today__wrapper {
     align-items: center;
 }
 
@@ -24,17 +34,17 @@
 
 .home-image__wrapper {
     background: url(../images/astronaut_colors.jpg);
-    min-height: 50vh;
     background-size: cover;
     background-position: center top;
+}
+
+.home-image__wrapper, .young-stars {
+    min-height: 50vh;
 }
 
 .young-stars {
     background: linear-gradient(99.96deg, #002C50 -13.68%, #00203A 100%);
     color: var(--clr-white);
-    justify-content: center;
-    align-items: center;
-    min-height: 50vh;
 }
 
 .young-stars h2 {
@@ -45,12 +55,15 @@
 }
 
 .young-stars__wrapper {
-    gap: var(--space-20);
+    gap: var(--size-200);
 }
 
 .young-stars__info {
-    gap: var(--space-10);
     max-width: 490px;
+}
+
+.young-stars__info, .visit-today__text {
+    gap: var(--size-100);
 }
 
 .visit-today {
@@ -58,14 +71,11 @@
 }
 
 .visit-today__wrapper {
-    gap: var(--space-50);
-    padding-block: var(--space-100);
-    align-items: center;
+    gap: var(--size-400);
+    padding-top: var(--size-700);
 }
 
 .visit-today__text {
-    text-align: center;
-    gap: var(--space-10);
     max-width: 250px;
 }
 

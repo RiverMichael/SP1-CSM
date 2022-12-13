@@ -4,20 +4,28 @@
     --ff-body: 'Source Sans Pro', sans-serif;
     
     /* Font size */
-    --fs-380: 3.8rem;
-    --fs-300: 3rem;
-    --fs-200: 2rem;
-    --fs-150: 1.5rem;
-    --fs-125: 1.25rem;
-    --fs-100: 1rem;
-    --fs-80: 0.8rem;
-    --fs-70: 0.7rem;
+
+    --fs-100: 0.7rem;
+    --fs-200: 0.8rem;
+    --fs-300: 1rem;
+    --fs-400: 1.25rem;
+    --fs-500: 1.5rem;
+    --fs-600: 2rem;
+    --fs-700: 2.4rem;
+    --fs-800: 3rem;
+    --fs-900: 3.8rem;
+    
+    --fs-body: var(--fs-300);
+    --fs-primary-heading: var(--fs-800);
+    --fs-secondary-heading: var(--fs-600);
+    --fs-third-heading: var(--fs-400);
+    --fs-nav: var(--fs-400);
 
     /* Font weight */
-    --fw-700: 700;
-    --fw-500: 500;
-    --fw-400: 400;
-    --fw-300: 300;
+    --fw-bold: 700;
+    --fw-semi-bold: 500;
+    --fw-regular: 400;
+    --fw-thin: 300;
     
 
     /* Colors */
@@ -35,13 +43,15 @@
     --clr-aeronautics: rgba(39, 40, 42, 0.9);
     --clr-energetica: rgba(0, 10, 28, 0.9);
     --clr-holiday-club: rgba(44, 38, 38, 0.9);
-    --clr-birthdays-box: #FCB4FD;
 
-    /* Spaces */
-    --space-10: 10px;
-    --space-20: 20px;
-    --space-30: 30px;
-    --space-50: 50px;
-    --space-100: 100px;
+    /* Sizes */
+    --size-100: 10px;
+    --size-200: 20px;
+    --size-300: 30px;
+    --size-400: 50px;
+    --size-500: 60px;
+    --size-600: 70px;
+    --size-700: 100px;
+    --size-800: 200px;
 }
 

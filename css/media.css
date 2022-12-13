@@ -2,10 +2,10 @@
     .split {
         flex-direction: row;
     }
-        /*
+        
     .split > * {
         flex: 1;
-    }   */
+    }
 
     .reverse {
         flex-direction: row-reverse;
@@ -13,10 +13,11 @@
 
     .even-columns {
         grid-auto-flow: column;
+        grid-auto-columns: 1fr;
     }
 
-    .visit-wrapper {
-        grid-auto-columns: 1fr;
+    .events-item {
+        gap: var(--size-400);
     }
 
     #cosmology img, #biology img, #ecology img {
@@ -27,45 +28,39 @@
     border-radius: 0px 10px 10px 0px;
     }
 
-    /**/
-    
-    .contact {
-        max-width: 500px;
-    }
-
     .social-media {
-        justify-content: center;
-    }
-
-    .social-media {
-        padding: 50px 0px;
+        justify-content: end;
     }
         
-    .contact-form__box {
+    .shop-dine__wrapper, .contact-form__wrapper {
         flex-wrap: wrap;
     }
     
-    .contact-form__box h2 {
+    .contact-form__wrapper h2, .shop-dine__wrapper h2 {
         flex: 1 0 100%;
     }
 
+    .shop-dine {
+        align-items: center;
+    }
+
     .shop-dine__wrapper {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: var(--space-50);
-        align-items: flex-start;
-        justify-content: space-between;
-       }
+        gap: var(--size-300);
+    }
     
-       .tours__wrapper {
-        max-width: 552px;
-        }
+    .tours__wrapper {
+        padding: var(--size-600);
+    }
 
 }
 
 @media (min-width: 900px) {
+    :root {
+        --fs-nav: var(--fs-300);
+    }
+
     section {
-        margin: var(--space-100) 0px;
+        margin-block: var(--size-700);
     }
 
     .home-image__wrapper {
@@ -81,7 +76,7 @@
     }
 
     #night img {
-        box-shadow: -30px -30px 0px var(--clr-night);
+        box-shadow: -30px 30px 0px var(--clr-night);
     }
     
     #aeronautics img {
@@ -89,7 +84,7 @@
     }
     
     #energetica img {
-        box-shadow: -30px -30px 0px var(--clr-energetica);
+        box-shadow: -30px 30px 0px var(--clr-energetica);
     }
     
     #holiday-club img {
@@ -99,17 +94,6 @@
     #birthdays img {
         box-shadow: -30px -30px 0px var(--clr-birthdays-box);
     }
-        /*
-    .visit-wrapper {
-        max-width: 800px;
-    }   */
-
-    .shop-dine {
-        max-width: 900px;
-        gap: var(--space-100);
-    }
-
-    /**/
     
     header {
         grid-template-columns: 1fr auto;
@@ -140,25 +124,22 @@
         padding: 0px 15px;
     }
 
-    nav li {
-        font-size: 1rem;
-    }
-
-    .contact-form {
-        max-width: 800px;
-    }
-
     .visit-today__wrapper {
         max-width: 800px;
-        gap: var(--space-100);
+        gap: var(--size-700);
     }
     
 }
 
 @media (min-width: 1200px) {
+    :root {
+        --fs-primary-heading: var(--fs-900);
+    }
+
     header img {
         width: 200px;
     }
+    
     .container {
         max-width: 1200px;
     }
@@ -167,12 +148,16 @@
         min-height: 70vh;
     }
 
-    .young-stars {
+    .young-stars, .accessibility {
         min-height: 60vh;
     }
 
     .birthdays__wrapper {
         max-width: 1000px;
+    }
+
+    .explore-item__wrapper {
+        gap: var(--size-800);
     }
 
     /**/
@@ -193,17 +178,6 @@
     p, nav li {
         font-size: 1.25rem;
     }
-
-    footer p {
-        font-size: 1rem;
-    } */
-
-    .contact {
-        max-width: 550px;
-    }
-
-    .contact-validation p {
-        max-width: 430px;
-    }
+     */
 
 }

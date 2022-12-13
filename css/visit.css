@@ -9,7 +9,7 @@
     color: var(--clr-visit);
 }
 
-.visit {
+.visit, .admission, .explore-item__wrapper, .shop-dine__item, .tours  {
     align-items: center;
 }
 
@@ -17,42 +17,37 @@
     text-align: center;
     box-shadow: 0px 4px 4px rgba(0, 16, 28, 0.25);
     border-radius: 2px;
-    padding-block: var(--space-30);
+    padding-block: var(--size-300);
     justify-items: center;
-    gap: var(--space-30);
     max-width: 800px;
 }
 
-.admission, .explore-item__wrapper, .shop-dine__item  {
-    align-items: center;
+.visit-wrapper, .explore-item__wrapper {
+    gap: var(--size-300);
 }
 
 .admission, .shop-dine__item {
-    gap: var(--space-20);
+    gap: var(--size-200);
 }
 
 .explore-item {
-    padding-block: var(--space-50);
-    margin-block: var(--space-30);
+    padding-block: var(--size-400);
+    margin-block: var(--size-300);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
+    
 .explore-item__wrapper {
-    gap: var(--space-30);
-}
-
-.explore-item__info, .shop-dine__info {
-    gap: var(--space-10);
-    padding: var(--space-20);
-}
-
-.explore-item__image {
-    text-align: -moz-center;
+    max-width: 1000px;
+    margin-inline: auto;
+}   
+    
+.explore-item__info, .shop-dine__info, .tours__wrapper, .accessibility__wrapper{
+    gap: var(--size-100);
 }
 
 .explore-item img {
     border-radius: 50%;
-    max-width: 350px;
+    max-width: 380px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -83,9 +78,9 @@
 
 .shop-dine__wrapper {
     flex-direction: column;
-    gap: var(--space-30);
-    align-items: center;
-    margin-top: var(--space-30);
+    gap: var(--size-300);
+    max-width: 900px;
+    justify-content: space-between;
 }
 
 .shop-dine__item {
@@ -98,16 +93,12 @@
     border-radius: 10px;
 }
 
-.shop-dine_image {
-    text-align: -moz-center;
-}
-
 .tours__wrapper {
     background: var(--clr-white);
     box-shadow: 0px 4px 10px var(--clr-visit);
     border-radius: 2px;
-    padding: var(--space-30);
-    gap: var(--space-10);
+    padding: var(--size-300);
+    max-width: 600px;
 }
 
 .accessibility {
@@ -123,6 +114,5 @@
     max-width: 420px;
     background-color: #000;
     opacity: 0.8;
-    padding: var(--space-20);
-    gap: var(--space-10);
+    padding: var(--size-200);
 }  

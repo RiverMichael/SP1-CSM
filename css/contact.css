@@ -3,50 +3,43 @@
     filter: drop-shadow(4px 4px 4px rgba(0, 16, 28, 0.25));
 }
 
-.contact-form h2, .contact-validation {
-    text-align: center;
-}
-
-.contact-form h3 {
-    font-size: 1rem;
-}
-
-.contact-form__box {
+.contact-form__wrapper {
     border: 2px solid #00101C;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    padding: 30px;
-    gap: 30px;
+    padding: var(--size-300);
+    gap: var(--size-300);
+    flex-direction: column;
+    max-width: 800px;
+    margin-inline: auto;
 }
 
-.contact-form__information, .contact-form__message {
-    padding: 0px;
+.contact-form__wrapper h2, .contact-validation {
+    text-align: center;
 }
 
 .contact-form__information, .contact-form__message {
     gap: 5px;
+    margin-block: 0px;
 }
 
-textarea {
+.contact-form__message textarea {
     min-height: 145px;
 }
 
 .subscribe-label {
-    font-size: 0.8rem;
+    font-size: var(--fs-200);
 }
 
 .contact-form button {
     margin-top: 5px;
 }
 
-.contact-validation h2 {
-    margin-bottom: 20px;
-}
-
-.contact-validation__action {
-    margin-top: 70px;
+.contact-validation {
+    align-items: center;
+    gap: var(--size-400);
 }
 
 .contact-validation p {
-    max-width: 350px;
+    max-width: 400px;
 }
