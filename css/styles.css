@@ -83,15 +83,15 @@ section, article {
     max-width: 80%;
 }
 
-.flex, .split {
+.flex, .split-reverse, .split {
     display: flex;
 }
 
-.flex {
+.flex, .split {
     flex-direction: column;
 }
 
-.split {
+.split-reverse {
     flex-direction: column-reverse;
 }
 

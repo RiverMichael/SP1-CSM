@@ -1,0 +1,26 @@
+.getinvolved-heading {
+    color: var(--clr-get-involved);
+    text-shadow: 4px 4px 4px rgba(122, 151, 150, 0.25);
+    filter: drop-shadow(4px 4px 4px rgba(122, 151, 150, 0.25));
+}
+
+.getinvolved-item {
+    gap: var(--size-300);
+    padding-block: var(--size-700);
+}
+
+.support, .volunteer, .internship, .research {
+    margin-block: 0px;
+}
+
+.support, .internship {
+    background: var(--clr-get-involved);
+}
+
+.volunteer, .research {
+    background: var(--clr-grey);
+}
+
+.getinvolved-item__content {
+    gap: var(--size-100);
+}
