@@ -27,10 +27,10 @@ img, picture, svg {
     display: block;
     width: 100%;
 }
-
+    
 img {
     object-fit: cover;
-}
+}   
 
 .icon {
     width: 36px;
@@ -83,16 +83,12 @@ section, article {
     max-width: 80%;
 }
 
-.flex, .split-reverse, .split {
+.flex, .split {
     display: flex;
 }
 
 .flex, .split {
     flex-direction: column;
-}
-
-.split-reverse {
-    flex-direction: column-reverse;
 }
 
 .even-columns {
@@ -189,6 +185,7 @@ footer {
 }
 
 .social-media {
+    margin-top: 0px;
     background: var(--clr-darkblue);
     color: var(--clr-white);
     padding: var(--size-300);
@@ -238,46 +235,45 @@ footer li {
     font-size: var(--fs-100);
 }
 
-/* Exhibits */
-.exhibits h2, #cosmology h3, #ecology h3 {
-    color: var(--clr-exhibits);
-}
-
-#robotics h3, #robotics p {
-    color: var(--clr-white);
-}
-
-#robotics {
-    background: var(--clr-exhibits);
-}
-
+/* Exhibits */ 
 .exhibits-item {
-    gap: var(--size-200);
-    border-radius: var(--size-100);
     background: var(--clr-white);
-    box-shadow: 0px 0px 10px rgba(0, 16, 28, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-style: solid;
+    border-color: var(--clr-exhibits);
+    border-radius: 2px;
+    padding: var(--size-300);
+    gap: var(--size-400);
     align-items: center;
 }
 
-.exhibits-item, .events-item {
-    margin-block: var(--size-300);
+.exhibits h2, .exhibits-item h3 {
+    color: var(--clr-exhibits);
 }
 
-.exhibits-item:hover {
-    box-shadow: 0px 0px 10px var(--clr-darkblue);
+.cosmology, .ecology {
+    border-width: 0px 0px 4px 4px;
 }
 
-.exhibits-item__content {
-    padding: var(--size-200);
-    gap: var(--size-100);
+.robotics {
+    border-width: 0px 4px 4px 0px;
+}
+
+.exhibits-item__content, .events-item__content {
+    gap: var(--size-200);
 }
 
 .exhibits-item img {
-    border-radius: 10px 10px 0px 0px;
-    max-height: 400px;
-}   
+    max-width: 400px;
+    max-height: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-/* Events */
+.exhibits a {
+    color: var(--clr-darkblue);
+}
+
+/* Events */    /*
 .events h2 {
     color: var(--clr-events);
 }
@@ -291,6 +287,7 @@ footer li {
 
 .events-item {
     gap: var(--size-600);
+    margin-block: var(--size-300);
 }
 
 .events__wrapper {
@@ -327,3 +324,4 @@ footer li {
     transform: rotate(10deg);
     box-shadow: 15px 15px 0px var(--clr-aeronautics);
 }
+*/

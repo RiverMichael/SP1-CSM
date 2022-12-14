@@ -1,24 +1,21 @@
 /* HOME PAGE */
 
 .home-intro {
-    min-height: 30vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/astronaut_colors.jpg);
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center top;
+    color: var(--clr-lightblue);
+    margin-top: 0px;
 }
 
 .home-intro, .young-stars {
     justify-content: center;
 }
 
-.home-intro h1 {
-    background: linear-gradient(90.42deg, #004376 1.56%, rgba(0, 67, 118, 0.7) 101.14%);
-    text-shadow: 4px 4px 4px rgba(0, 67, 118, 0.25);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
 .home-intro__wrapper {
     gap: var(--size-200);
-}
+} 
 
 .home-intro__wrapper, .visit-today__content {
     text-align: center;

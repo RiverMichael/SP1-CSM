@@ -2,10 +2,6 @@
     .split, .split-reverse {
         flex-direction: row;
     }
-        
-    .split > *, .split-reverse > * {
-        flex: 1;
-    }
 
     .reverse {
         flex-direction: row-reverse;
@@ -23,14 +19,6 @@
         gap: var(--size-400);
     }
 
-    #cosmology img, #biology img, #ecology img {
-        border-radius: 10px 0px 0px 10px;
-    }
-
-    #robotics img, #evolution img {
-    border-radius: 0px 10px 10px 0px;
-    }
-
     .social-media {
         justify-content: end;
     }
@@ -38,17 +26,17 @@
     .shop-dine__wrapper, .contact-form__wrapper {
         flex-wrap: wrap;
     }
+
+    .shop-dine__item {
+        max-width: 350px;
+    }
     
     .contact-form__wrapper h2, .shop-dine__wrapper h2 {
         flex: 1 0 100%;
     }
 
-    .shop-dine {
-        align-items: center;
-    }
-
-    .shop-dine__wrapper {
-        gap: var(--size-300);
+    .explore-item__wrapper { 
+        gap: var(--size-400);
     }
     
     .tours__wrapper {
@@ -68,30 +56,6 @@
 
     .home-image__wrapper {
         min-height: 60vh;
-    }
-
-    #night img, #energetica img, #birthdays img {
-        transform: rotate(-15deg);
-    }
-    
-    #aeronautics img, #holiday-club img {
-        transform: rotate(15deg);
-    }
-
-    #night img {
-        box-shadow: -30px 30px 0px var(--clr-night);
-    }
-    
-    #aeronautics img {
-        box-shadow: 30px 30px 0px var(--clr-aeronautics);
-    }
-    
-    #energetica img {
-        box-shadow: -30px 30px 0px var(--clr-energetica);
-    }
-    
-    #holiday-club img {
-        box-shadow: 30px 30px 0px var(--clr-holiday-club);
     }
 
     #birthdays img {
@@ -131,6 +95,8 @@
         max-width: 800px;
         gap: var(--size-700);
     }
+
+    
     
 }
 
@@ -144,7 +110,7 @@
     }
     
     .container {
-        max-width: 1200px;
+        max-width: 1000px;
     }
 
     .home-image__wrapper {
@@ -153,10 +119,6 @@
 
     .young-stars, .accessibility {
         min-height: 60vh;
-    }
-
-    .birthdays__wrapper {
-        max-width: 1000px;
     }
 
     .explore-item__wrapper {

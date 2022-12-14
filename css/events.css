@@ -5,7 +5,7 @@
     text-shadow: 4px 4px 4px rgba(17, 69, 112, 0.25);
     filter: drop-shadow(4px 4px 4px rgba(17, 69, 112, 0.25));
 }
-
+    
 .birthdays__wrapper {
     align-items: center;
 }
@@ -18,10 +18,68 @@
     padding-inline: var(--size-200);
 }
 
-.birthdays-info {
-    gap: var(--size-100);
+
+
+.events-item {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: var(--size-500);
+    margin-inline: auto;
 }
 
+.nights img, .energetica img {
+    filter: drop-shadow(15px 15px 4px rgba(0, 0, 0, 0.25));
+    transform: rotate(15deg);
+}
+
+.aeronautics img, .holiday-club img {
+    filter: drop-shadow(-15px 15px 4px rgba(0, 0, 0, 0.25));
+    transform: rotate(-15deg);
+}
+
+.events-item img {
+    max-width: 300px;
+    padding: var(--size-200);
+} 
+
+.birthdays {
+    background: rgba(52, 161, 246, 0.6);
+    padding-block: var(--size-500);
+}
+
+.birthdays__wrapper {
+    flex-direction: column-reverse;
+}
+
+.birthdays__content {
+    gap: var(--size-200);
+    max-width: 420px;
+}
+
+.birthdays-image {
+    padding: var(--size-200);
+}
+
+.birthdays img {
+    box-shadow: -15px -15px 0px #FCB4FD;
+    transform: rotate(-15deg);
+    max-width: 300px;
+}
+
+
+@media (min-width:600px) {
+
+    .events-item, .birthdays__wrapper {
+        justify-content: space-between;
+    }
+
+    .events-item__content {
+        max-width: 400px;
+    }
+
+}  
+
+    /*
 #energetica h3 {
     color: var(--clr-energetica);
 }
@@ -41,15 +99,7 @@
 
 #energetica img {
     box-shadow: -15px 15px 0px var(--clr-energetica);
-}
+}   */
 
-.birthdays {
-    background: rgba(52, 161, 246, 0.6);
-    padding: 100px 0px;
-}
 
-.birthdays img {
-    box-shadow: -15px -15px 0px #FCB4FD;
-    max-width: 300px;
-    max-height: 300px;
-}
+

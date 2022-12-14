@@ -21,8 +21,9 @@ li a:hover {
     border-bottom: 2px solid var(--clr-active);
 }
 
-.cta {
-    background: var(--clr-darkblue);
+.cta { 
+    background: var(--clr-darkblue); /*
+    background: linear-gradient(90deg, rgba(250, 130, 92, 0.5) 0%, rgba(250, 130, 92, 0.5) 48.69%, #FA825C 100%);   */
     color: var(--clr-white);
     border: 2px solid var(--clr-darkblue);
     border-radius: 5px;

@@ -10,6 +10,9 @@
 .vision__wrapper {
     gap: var(--size-300);
     max-width: 710px;
+}
+
+.vision__wrapper, .involvment__wrapper {
     margin-inline: auto;
 }
 
@@ -18,7 +21,7 @@
 }
 
 .vision__content {
-    gap: var(--size-100);
+    gap: var(--size-200);
 }
 
 .involvment {
@@ -29,8 +32,8 @@
 .involvment__wrapper {
     text-align: center;
     color: var(--clr-white);
-    max-width: 650px;
     align-items: center;
+    max-width: 650px;
 }
 
 .involvment__wrapper p {

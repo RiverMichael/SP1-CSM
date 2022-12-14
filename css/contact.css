@@ -13,6 +13,10 @@
     margin-inline: auto;
 }
 
+.contact-form__wrapper > * {
+    flex: 1;
+}
+
 .contact-form__wrapper h2, .contact-validation {
     text-align: center;
 }

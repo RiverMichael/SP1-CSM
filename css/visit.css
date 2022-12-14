@@ -9,25 +9,31 @@
     color: var(--clr-visit);
 }
 
-.visit, .admission, .explore-item__wrapper, .shop-dine__item, .tours  {
+.visit, .admission, .explore-item__wrapper, .tours  {
     align-items: center;
 }
 
 .visit-wrapper {
-    text-align: center;
     box-shadow: 0px 4px 4px rgba(0, 16, 28, 0.25);
-    border-radius: 2px;
-    padding-block: var(--size-300);
     justify-items: center;
     max-width: 800px;
+}
+
+.visit-wrapper, .tours__wrapper {
+    padding: var(--size-300);
+    border-radius: 2px;
+}
+
+.visit-wrapper, .shop-dine h2 {
+    text-align: center;
 }
 
 .visit-wrapper, .explore-item__wrapper {
     gap: var(--size-300);
 }
 
-.admission, .shop-dine__item {
-    gap: var(--size-200);
+.explore h2 {
+    text-align: center;
 }
 
 .explore-item {
@@ -37,12 +43,11 @@
 }
     
 .explore-item__wrapper {
-    max-width: 1000px;
-    margin-inline: auto;
+    flex-direction: column-reverse;
 }   
     
-.explore-item__content, .shop-dine__item__content, .tours__wrapper, .accessibility__wrapper{
-    gap: var(--size-100);
+.admission, .shop-dine__item, .explore-item__content, .tours__wrapper, .accessibility__wrapper {
+    gap: var(--size-200);
 }
 
 .explore-item img {
@@ -68,36 +73,47 @@
 }
 
 .teachers {
-    background: rgba(64, 27, 8, 0.66);
-    color: var(--clr-white);
+    background: rgba(102, 45, 16, 0.66);
+    color: var(--clr-darkblue);
 }
 
 .teachers h3 {
-    color: #312723;
+    color: #28201d;
 }
 
 .shop-dine__wrapper {
-    flex-direction: column;
-    gap: var(--size-300);
-    max-width: 900px;
-    justify-content: space-between;
+    gap: var(--size-400);
+    justify-content: space-around;
+    margin-inline: auto;
+}
+
+.shop-dine__wrapper > * {
+    flex: 1;
 }
 
 .shop-dine__item {
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-    max-width: 400px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 0px 20px 30px;
+}
+
+.shop-dine__item h3 {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 20px 20px;
+    padding: var(--size-200);
 }
 
 .shop-dine__item img {
-    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
 }
 
 .tours__wrapper {
     background: var(--clr-white);
-    box-shadow: 0px 4px 10px var(--clr-visit);
-    border-radius: 2px;
-    padding: var(--size-300);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-width: 0px 0px 4px 4px;
+    border-style: solid;
+    border-color: var(--clr-visit);
     max-width: 600px;
 }
 
@@ -113,6 +129,6 @@
 .accessibility__wrapper { 
     max-width: 420px;
     background-color: #000;
-    opacity: 0.8;
+    opacity: 0.7;
     padding: var(--size-200);
 }  

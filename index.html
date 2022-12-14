@@ -40,8 +40,8 @@
     </header>
 
     <main>
-      <section class="home-intro flex container">
-        <div class="home-intro__wrapper flex">
+      <section class="home-intro flex">
+        <div class="home-intro__wrapper flex container">
           <h1 class="primary-heading">Explore the world of science</h1>
           <p>
             Come join us at the Community Science Museum where we are committed
@@ -50,62 +50,53 @@
         </div>
       </section>
 
-      <div class="home-image__wrapper"></div>
+      <section class="exhibits container">
+        <h2 class="secondary-heading">Must-see exhibits</h2>
+        <a href="exhibits.html#cosmology">
+          <section class="exhibits-item cosmology split">
+            <div class="exhibits-item__content flex">
+              <h3 class="third-heading">Cosmology</h3>
+              <p>
+                Our fantastic exhibition, "The Sky Above Us" explores the night
+                sky and what we can see and know about the universe around us.
+              </p>
+            </div>
+            <img
+              src="images/northern-lights.jpg"
+              alt="the colorful northern lights shining over a lake"
+              class="exhibit-image"
+            /></section
+        ></a>
 
-      <section class="exhibits">
-        <div class="container">
-          <h2 class="secondary-heading">Must-see exhibits</h2>
-          <div class="flex">
-            <section class="exhibits-item split-reverse reverse" id="cosmology">
-              <div class="exhibits-item__content flex">
-                <h3 class="third-heading">Cosmology</h3>
-                <p>
-                  Our fantastic exhibition, "The Sky Above Us" explores the
-                  night sky and what we can see and know about the universe
-                  around us.
-                </p>
-              </div>
-              <picture>
-                <img
-                  src="images/northern-lights.jpg"
-                  alt="the colorful northern lights shining over a lake"
-                  class="exhibit-image"
-              /></picture>
-            </section>
-
-            <section class="exhibits-item split-reverse" id="robotics">
-              <div class="exhibits-item__content flex">
-                <h3 class="third-heading">Robotics and AI</h3>
-                <p>
-                  The information revolution is here and robotics and artificial
-                  intelligence are the science of the future.
-                </p>
-              </div>
-              <picture>
-                <img
-                  src="images/robots.jpg"
-                  alt="golden robot child playing with a smaller white robot"
-                  class="exhibit-image"
-              /></picture>
-            </section>
-
-            <section class="exhibits-item split-reverse reverse" id="ecology">
-              <div class="exhibits-item__content flex">
-                <h3 class="third-heading">Ecology</h3>
-                <p>
-                  We unpack the dangers we currently face including global
-                  warming, extinction of species, and pollution.
-                </p>
-              </div>
-              <picture>
-                <img
-                  src="images/boxed-water.jpg"
-                  alt="hand holding a boxed carton of water under the water surface"
-                  class="exhibit-image"
-              /></picture>
-            </section>
+        <section class="exhibits-item robotics split reverse">
+          <div class="exhibits-item__content flex">
+            <h3 class="third-heading">Robotics and AI</h3>
+            <p>
+              The information revolution is here and robotics and artificial
+              intelligence are the science of the future.
+            </p>
           </div>
-        </div>
+          <img
+            src="images/robots.jpg"
+            alt="golden robot child playing with a smaller white robot"
+            class="exhibit-image"
+          />
+        </section>
+
+        <section class="exhibits-item ecology split">
+          <div class="exhibits-item__content flex">
+            <h3 class="third-heading">Ecology</h3>
+            <p>
+              We unpack the dangers we currently face including global warming,
+              extinction of species, and pollution.
+            </p>
+          </div>
+          <img
+            src="images/boxed-water.jpg"
+            alt="hand holding a boxed carton of water under the water surface"
+            class="exhibit-image"
+          />
+        </section>
       </section>
 
       <article class="young-stars flex">
@@ -129,44 +120,39 @@
         </div>
       </article>
 
-      <section class="events">
-        <div class="container">
-          <h2 class="secondary-heading">Upcoming events</h2>
-          <div class="events__wrapper flex">
-            <section class="events-item split-reverse reverse" id="night">
-              <div class="events-item__content flex">
-                <h3 class="third-heading">Night in the museum</h3>
-                <p>
-                  Get your family together for an exciting night in the museum
-                  as you sleep over beside dinosaurs and science displays.
-                </p>
-                <p>
-                  Bring your own sleeping bag and get ready to rough it as we go
-                  exploring and sleep over beside dinosaurs.
-                </p>
-              </div>
-              <picture class="events-item__image">
-                <img
-                  src="images/museum_night.jpg"
-                  alt="woolly mammoth skelleton in the museum at night"
-              /></picture>
-            </section>
-            <section class="events-item split-reverse" id="aeronautics">
-              <div class="events-item__content flex">
-                <h3 class="third-heading">Aeronautics and space</h3>
-                <p>
-                  Professor Sheila Widnall delivers a lecture on aeronautics and
-                  where the future lies in this exciting “space”.
-                </p>
-              </div>
-              <picture class="events-item__image">
-                <img
-                  src="images/moon-astronaut.jpg"
-                  alt="digital astronaut sitting on a moon in the dark galaxy"
-              /></picture>
-            </section>
+      <section class="events container">
+        <h2 class="secondary-heading">Upcoming events</h2>
+        <section class="events-item nights split" id="nights">
+          <div class="events-item__content flex">
+            <h3 class="third-heading">Night in the museum</h3>
+            <p>
+              Get your family together for an exciting night in the museum as
+              you sleep over beside dinosaurs and science displays.
+            </p>
+            <p>
+              Bring your own sleeping bag and get ready to rough it as we go
+              exploring and sleep over beside dinosaurs.
+            </p>
           </div>
-        </div>
+          <img
+            src="images/museum_night.jpg"
+            alt="woolly mammoth skelleton in the museum at night"
+          />
+        </section>
+
+        <section class="events-item aeronautics split reverse" id="aeronautics">
+          <div class="events-item__content flex">
+            <h3 class="third-heading">Aeronautics and space</h3>
+            <p>
+              Professor Sheila Widnall delivers a lecture on aeronautics and
+              where the future lies in this exciting “space”.
+            </p>
+          </div>
+          <img
+            src="images/moon-astronaut.jpg"
+            alt="digital astronaut sitting on a moon in the dark galaxy"
+          />
+        </section>
       </section>
 
       <section class="visit-today flex">

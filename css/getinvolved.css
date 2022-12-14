@@ -9,6 +9,10 @@
     padding-block: var(--size-700);
 }
 
+.getinvolved-item > * {
+    flex: 1;
+}
+
 .support, .volunteer, .internship, .research {
     margin-block: 0px;
 }
