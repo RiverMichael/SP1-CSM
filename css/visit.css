@@ -46,8 +46,12 @@
     flex-direction: column-reverse;
 }   
     
-.admission, .shop-dine__item, .explore-item__content, .tours__wrapper, .accessibility__wrapper {
+.admission, .explore-item__content, .shop-dine__content, .tours__wrapper, .accessibility__wrapper {
     gap: var(--size-200);
+}
+
+.shop-dine__item {
+    gap: var(--size-400);
 }
 
 .explore-item img {
@@ -83,7 +87,7 @@
 
 .shop-dine__wrapper {
     gap: var(--size-400);
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-inline: auto;
 }
 

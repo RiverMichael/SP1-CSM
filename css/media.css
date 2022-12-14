@@ -15,6 +15,10 @@
         grid-auto-columns: 1fr;
     }
 
+    .subscribe {
+        grid-column: 2;
+    }
+
     .events-item {
         gap: var(--size-400);
     }
@@ -62,8 +66,20 @@
         --fs-nav: var(--fs-300);
     }
 
-    section {
+    section, article {
         margin-block: var(--size-700);
+    }
+
+    .visit-today, .birthdays, .involvment {
+        margin-top: var(--size-800);
+    }
+
+    .visit {
+        margin-bottom: var(--size-800);
+    }
+
+    .tours {
+        margin-block: var(--size-800);
     }
 
     .home-image__wrapper {
@@ -129,7 +145,7 @@
         min-height: 70vh;
     }
 
-    .young-stars, .accessibility {
+    .young-stars {
         min-height: 60vh;
     }
 

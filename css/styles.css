@@ -75,7 +75,7 @@ input:focus-visible, select:focus-visible, textarea:focus-visible {
 }
 
 section, article {
-    margin-block: var(--size-400);
+    margin-block: var(--size-700);
 }
 
 .container {
@@ -182,6 +182,7 @@ nav {
 footer {
     text-align: center;
     font-size: var(--fs-300);
+    margin-top: var(--size-400);
 }
 
 .social-media {
@@ -233,6 +234,7 @@ footer li {
 .copy {
     font-weight: var(--fw-thin);
     font-size: var(--fs-100);
+    margin-bottom: 5px;
 }
 
 /* Exhibits */ 

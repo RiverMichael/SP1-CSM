@@ -1,0 +1,9 @@
+.subscribe-validation {
+    align-items: center;
+    gap: var(--size-400);
+    text-align: center;
+}
+
+.subscribe-validation__content {
+    gap: var(--size-100);
+}
