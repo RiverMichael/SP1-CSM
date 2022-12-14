@@ -109,7 +109,7 @@
         position: static;
         border-width: 2px 0px 2px 2px;
         border-style: solid;
-        border-color: var(--clr-darkblue);
+        border-color: var(--clr-dark);
         border-radius: 10px 0px 0px 10px;
         box-shadow: 4px 2px 4px rgba(0, 16, 28, 0.5);
     }

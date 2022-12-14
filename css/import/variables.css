@@ -4,7 +4,6 @@
     --ff-body: 'Source Sans Pro', sans-serif;
     
     /* Font size */
-
     --fs-100: 0.7rem;
     --fs-200: 0.8rem;
     --fs-300: 1rem;
@@ -22,17 +21,16 @@
     --fs-nav: var(--fs-400);
 
     /* Font weight */
-    --fw-bold: 700;
-    --fw-semi-bold: 500;
-    --fw-regular: 400;
     --fw-thin: 300;
-    
+    --fw-regular: 400;
+    --fw-semi-bold: 500;
+    --fw-bold: 700;
 
     /* Colors */
     --clr-white: #FBFCFD;
     --clr-grey: #F1F2F4;
-    --clr-darkblue: #00101C;
     --clr-lightblue: #E3F1FF;
+    --clr-dark: #00101C;
     --clr-visit: #8B6DD9;
     --clr-exhibits: #187B75;
     --clr-events: #114570;

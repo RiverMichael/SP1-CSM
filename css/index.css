@@ -1,5 +1,4 @@
 /* HOME PAGE */
-
 .home-intro {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/astronaut_colors.jpg);
     min-height: 80vh;
@@ -17,11 +16,11 @@
     gap: var(--size-200);
 } 
 
-.home-intro__wrapper {
+.home-intro__wrapper, .visit-today__content {
     text-align: center;
 }
 
-.home-intro__wrapper {
+.home-intro__wrapper, .young-stars__wrapper, .visit-today__wrapper, .visit-today__content {
     align-items: center;
 }
 
@@ -54,9 +53,11 @@
 
 .young-stars__wrapper {
     gap: var(--size-300);
-    margin-inline: auto;
     max-width: 490px;
-    align-items: center;
+}
+
+.young-stars__wrapper, .visit-today__wrapper {
+    margin-inline: auto;
 }
 
 .young-stars__content {
@@ -68,8 +69,6 @@
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
     padding: var(--size-300);
     gap: var(--size-300);
-    align-items: center;
-    margin-inline: auto;
 }
 
 .visit-today__wrapper > * {
@@ -78,8 +77,6 @@
 
 .visit-today__content {
     gap: var(--size-300);
-    align-items: center;
-    text-align: center;
 }
 
 .visit-today__content p {

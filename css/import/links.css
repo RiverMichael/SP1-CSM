@@ -9,7 +9,7 @@ a:hover {
 }
 
 li a, a:active {
-    color: var(--clr-darkblue);
+    color: var(--clr-dark);
 }
 
 li a:hover {
@@ -37,13 +37,13 @@ li a:hover {
 
 .cta:hover {
     background: var(--clr-white);
-    color: var(--clr-darkblue);
+    color: var(--clr-dark);
     transition-duration: 0.5s;
 }
 
 .cta-execute {
     background: linear-gradient(86.24deg, rgba(250, 136, 100, 0.87) -2%, rgba(250, 136, 100, 0.69) 53.56%, #FA8864 115.12%);
-    color: var(--clr-darkblue);
+    color: var(--clr-dark);
 }
 
 .cta-execute:hover {

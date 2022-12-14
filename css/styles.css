@@ -12,12 +12,11 @@ html:focus-within {
   } 
 
 /* General styling */
-
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     background: var(--clr-white);
-    color: var(--clr-darkblue);
+    color: var(--clr-dark);
     font-family: var(--ff-body);
     font-size: var(--fs-body);
     font-weight: var(--fw-regular);
@@ -48,18 +47,18 @@ input, select, textarea {
     background: var(--clr-grey);
     border-radius: 5px;
     padding: var(--size-100);
-    border: 1px solid var(--clr-darkblue);
+    border: 1px solid var(--clr-dark);
     font-size: var(--fs-300);
 }
 
 input:hover, select:hover, textarea:hover {
-    box-shadow: 0px 1px 4px var(--clr-darkblue);
+    box-shadow: 0px 1px 4px var(--clr-dark);
     transition-duration: 0.25s;
 }
 
 input:focus-visible, select:focus-visible, textarea:focus-visible {
     outline: none;
-    box-shadow: 0px 1px 4px var(--clr-darkblue);
+    box-shadow: 0px 1px 4px var(--clr-dark);
     background: #fff;
 }
 
@@ -85,9 +84,6 @@ section, article {
 
 .flex, .split {
     display: flex;
-}
-
-.flex, .split {
     flex-direction: column;
 }
 
@@ -178,7 +174,6 @@ nav {
 }
 
 /* FOOTER */
-
 footer {
     text-align: center;
     font-size: var(--fs-300);
@@ -206,6 +201,10 @@ footer {
     gap: var(--size-200);
 } 
 
+.social-media {
+    margin-bottom: 50px;
+}
+
 .social-media__icons {
     display: flex;
     justify-content: center;
@@ -220,7 +219,7 @@ footer {
 }
 
 .footer-bottom {
-    margin-bottom: 0px;
+    margin: 50px 0px 0px;
 }
 
 footer li {
@@ -237,7 +236,7 @@ footer li {
     margin-bottom: 5px;
 }
 
-/* Exhibits */ 
+/* REPETING CLASSES STYLING */ 
 .exhibits-item {
     background: var(--clr-white);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -246,6 +245,9 @@ footer li {
     border-radius: 2px;
     padding: var(--size-300);
     gap: var(--size-400);
+}
+
+.exhibits-item, .events-item {
     align-items: center;
 }
 
@@ -272,10 +274,8 @@ footer li {
 }
 
 .exhibits a {
-    color: var(--clr-darkblue);
+    color: var(--clr-dark);
 }
-
-/* Events */
 
 .events h2, .events h3 {
     color: var(--clr-events);
@@ -283,7 +283,6 @@ footer li {
 
 .events-item {
     flex-direction: column-reverse;
-    align-items: center;
     gap: var(--size-500);
     margin-inline: auto;
 }
