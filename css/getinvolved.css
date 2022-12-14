@@ -21,10 +21,6 @@
     background: var(--clr-get-involved);
 }
 
-.volunteer, .research {
-    background: var(--clr-grey);
-}
-
 .getinvolved-item__content {
     gap: var(--size-100);
 }

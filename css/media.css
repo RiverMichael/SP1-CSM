@@ -19,6 +19,14 @@
         gap: var(--size-400);
     }
 
+    .events-item, .birthdays__wrapper {
+        justify-content: space-between;
+    }
+
+    .events-item__content {
+        max-width: 400px;
+    }
+
     .social-media {
         justify-content: end;
     }
@@ -41,6 +49,10 @@
     
     .tours__wrapper {
         padding: var(--size-600);
+    }
+
+    .visit-today__wrapper {
+        padding: var(--size-500);
     }
 
 }

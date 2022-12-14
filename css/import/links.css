@@ -22,10 +22,9 @@ li a:hover {
 }
 
 .cta { 
-    background: var(--clr-darkblue); /*
-    background: linear-gradient(90deg, rgba(250, 130, 92, 0.5) 0%, rgba(250, 130, 92, 0.5) 48.69%, #FA825C 100%);   */
+    background: linear-gradient(91.04deg, #00101C 0%, rgba(0, 16, 28, 0.51) 100%);
     color: var(--clr-white);
-    border: 2px solid var(--clr-darkblue);
+    border: 2px solid #00101C;
     border-radius: 5px;
     padding: 11px 30px;
     text-transform: uppercase;
@@ -42,16 +41,18 @@ li a:hover {
     transition-duration: 0.5s;
 }
 
-.cta:active {
-    background: var(--clr-events-dark);
+.cta-execute {
+    background: linear-gradient(86.24deg, rgba(250, 136, 100, 0.87) -2%, rgba(250, 136, 100, 0.69) 53.56%, #FA8864 115.12%);
     color: var(--clr-darkblue);
 }
 
-.cta-execute {
-    background: var(--clr-about);
-    border: 2px solid var(--clr-about);
+.cta-execute:hover {
+    color: #FA8864;
+    border: 2px solid #FA8864;
 }
 
-.cta-execute:hover {
-    color: var(--clr-about);
+.cta:active {
+    color: var(--clr-white);
+    background: var(--clr-events);
+    border-color: var(--clr-white);
 }

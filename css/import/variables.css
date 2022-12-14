@@ -32,7 +32,6 @@
     --clr-white: #FBFCFD;
     --clr-darkblue: #00101C;
     --clr-lightblue: #E3F1FF;
-    --clr-grey: #F1F2F4;
     --clr-visit: #8B6DD9;
     --clr-exhibits: #187B75;
     --clr-events: #114570;
@@ -40,10 +39,6 @@
     --clr-get-involved: #7A9796;
     --clr-link: #4A1C03;
     --clr-active: #4E7795;
-    --clr-night: rgba(28, 17, 12, 0.9);
-    --clr-aeronautics: rgba(39, 40, 42, 0.9);
-    --clr-energetica: rgba(0, 10, 28, 0.9);
-    --clr-holiday-club: rgba(44, 38, 38, 0.9);
 
     /* Sizes */
     --size-100: 10px;

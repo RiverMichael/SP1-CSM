@@ -17,11 +17,11 @@
     gap: var(--size-200);
 } 
 
-.home-intro__wrapper, .visit-today__content {
+.home-intro__wrapper {
     text-align: center;
 }
 
-.home-intro__wrapper, .young-stars, .visit-today__wrapper {
+.home-intro__wrapper {
     align-items: center;
 }
 
@@ -35,48 +35,58 @@
     background-position: center top;
 }
 
-.home-image__wrapper, .young-stars {
+.home-image__wrapper{
     min-height: 50vh;
 }
 
 .young-stars {
-    background: linear-gradient(99.96deg, #002C50 -13.68%, #00203A 100%);
-    color: var(--clr-white);
+    background: linear-gradient(90.57deg, rgba(227, 241, 255, 0.4212) 0%, rgba(227, 241, 255, 0.81) 99.94%);
+    padding-block: var(--size-700);
 }
 
 .young-stars h2 {
-    background: linear-gradient(90deg, #E0B300 -3.28%, #B79200 110.3%);
+    background: linear-gradient(90.96deg, #004A82 0.45%, #015B9E 52.28%, #0066B2 100.16%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-fill-color: transparent;
 }
 
 .young-stars__wrapper {
-    gap: var(--size-200);
+    gap: var(--size-300);
+    margin-inline: auto;
+    max-width: 490px;
+    align-items: center;
 }
 
 .young-stars__content {
-    max-width: 490px;
-}
-
-.young-stars__content, .visit-today__content {
-    gap: var(--size-100);
-}
-
-.visit-today {
-    background: linear-gradient(181.11deg, rgba(0, 52, 95, 0.71) 0.95%, rgba(251, 252, 253, 0.71) 88.76%);
+    gap: var(--size-200);
 }
 
 .visit-today__wrapper {
-    gap: var(--size-400);
-    padding-top: var(--size-700);
+    flex-direction: column-reverse;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: var(--size-300);
+    gap: var(--size-300);
+    align-items: center;
+    margin-inline: auto;
+}
+
+.visit-today__wrapper > * {
+    flex: 1;
 }
 
 .visit-today__content {
-    max-width: 250px;
+    gap: var(--size-300);
+    align-items: center;
+    text-align: center;
+}
+
+.visit-today__content p {
+    max-width: 200px;
 }
 
 .visit-today__wrapper img {
-    border-radius: 10px;
-    max-width: 500px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
