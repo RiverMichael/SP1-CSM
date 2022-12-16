@@ -1,6 +1,6 @@
 /* HOME PAGE */
 .home-intro {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/astronaut_colors.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/astronaut_colors.jpg);
     min-height: 80vh;
     background-size: cover;
     background-position: center top;
@@ -38,8 +38,12 @@
     min-height: 50vh;
 }
 
+.exhibits h2, .exhibits-item h3 {
+    color: var(--clr-exhibits);
+}
+
 .young-stars {
-    background: linear-gradient(90.57deg, rgba(227, 241, 255, 0.4212) 0%, rgba(227, 241, 255, 0.81) 99.94%);
+    background: #E3F1FF;
     padding-block: var(--size-700);
 }
 
@@ -62,6 +66,10 @@
 
 .young-stars__content {
     gap: var(--size-200);
+}
+
+.events h2, .events-item h3 {
+    color: var(--clr-events);
 }
 
 .visit-today__wrapper {

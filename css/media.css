@@ -35,7 +35,7 @@
         justify-content: end;
     }
         
-    .shop-dine__wrapper, .contact-form__wrapper {
+    .contact-form__wrapper, .shop-dine {
         flex-wrap: wrap;
     }
 
@@ -43,11 +43,19 @@
         max-width: 350px;
     }
     
-    .contact-form__wrapper h2, .shop-dine__wrapper h2 {
+    .contact-form__wrapper h2, .shop-dine h2 {
         flex: 1 0 100%;
     }
 
-    .explore-item__wrapper { 
+    .contact-info__wrapper {
+        gap: var(--size-700);
+    }
+
+    .visit-today__wrapper {
+        padding: var(--size-500);
+    }
+
+    .explore-item { 
         gap: var(--size-400);
     }
     
@@ -55,8 +63,8 @@
         padding: var(--size-600);
     }
 
-    .visit-today__wrapper {
-        padding: var(--size-500);
+    .explore-item > *, .shop-dine > * {
+        flex: 1;
     }
 
 }
@@ -70,15 +78,15 @@
         margin-block: var(--size-700);
     }
 
-    .visit-today, .birthdays, .involvment {
+    .visit-today, .birthdays {
         margin-top: var(--size-800);
     }
 
-    .visit {
+    .visit, .tours {
         margin-bottom: var(--size-800);
     }
 
-    .tours {
+    .shop-dine {
         margin-block: var(--size-800);
     }
 
@@ -123,14 +131,16 @@
         max-width: 800px;
         gap: var(--size-700);
     }
-
-    
     
 }
 
 @media (min-width: 1200px) {
     :root {
         --fs-primary-heading: var(--fs-900);
+        --fs-secondary-heading: var(--fs-700);
+        --fs-third-heading: var(--fs-500);
+        --fs-body: var(--fs-400);
+        --fs-nav: var(--fs-400);
     }
 
     header img {
@@ -149,17 +159,45 @@
         min-height: 60vh;
     }
 
-    .explore-item__wrapper {
-        gap: var(--size-800);
+    .visit-today__content p {
+        max-width: 220px;
+    }
+
+    footer li {
+        font-size: var(--fs-300);
+    }
+
+    .home-intro__wrapper p, .events-item__content {
+        max-width: 500px;
+    }
+
+    .birthdays__content {
+        max-width: 530px;
+    }
+
+    .young-stars__wrapper {
+        max-width: 610px;
+    }
+
+    .tours__wrapper {
+        max-width: 710px;
+    }
+
+    .accessibility__wrapper {
+        max-width: 570px;
+    }
+
+    .involvment__wrapper {
+        max-width: 780px;
+    }
+
+    .involvment__wrapper p {
+        max-width: 480px;
     }
 
     /**/
 
         /*
-    h1 {
-        font-size: 3.8rem;
-    }
-
     h2 {
         font-size: 2.4rem;
     }

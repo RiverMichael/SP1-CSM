@@ -1,7 +1,7 @@
 @import "../css/import/variables.css";
 @import "../css/import/links.css";
 
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +10,10 @@
 html:focus-within {
     scroll-behavior: smooth;
   } 
+
+html {
+    scroll-padding-top: 170px;
+  }
 
 /* General styling */
 body {
@@ -140,6 +144,7 @@ header {
     top: 0px;
     z-index: 1000; 
     background: var(--clr-white);
+    scroll-margin-top: 0px;
 }
 
 header img {
@@ -177,7 +182,6 @@ nav {
 footer {
     text-align: center;
     font-size: var(--fs-300);
-    margin-top: var(--size-400);
 }
 
 .social-media {
@@ -239,7 +243,7 @@ footer li {
 /* REPETING CLASSES STYLING */ 
 .exhibits-item {
     background: var(--clr-white);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     border-style: solid;
     border-color: var(--clr-exhibits);
     border-radius: 2px;
@@ -249,10 +253,6 @@ footer li {
 
 .exhibits-item, .events-item {
     align-items: center;
-}
-
-.exhibits h2, .exhibits-item h3 {
-    color: var(--clr-exhibits);
 }
 
 .cosmology, .ecology {
@@ -269,16 +269,12 @@ footer li {
 
 .exhibits-item img {
     max-width: 400px;
-    max-height: 200px;
+    max-height: 250px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .exhibits a {
     color: var(--clr-dark);
-}
-
-.events h2, .events h3 {
-    color: var(--clr-events);
 }
 
 .events-item {

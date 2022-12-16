@@ -14,11 +14,11 @@
     --fs-800: 3rem;
     --fs-900: 3.8rem;
     
-    --fs-body: var(--fs-300);
-    --fs-primary-heading: var(--fs-800);
-    --fs-secondary-heading: var(--fs-600);
-    --fs-third-heading: var(--fs-400);
     --fs-nav: var(--fs-400);
+    --fs-body: var(--fs-300);
+    --fs-third-heading: var(--fs-400);
+    --fs-secondary-heading: var(--fs-600);
+    --fs-primary-heading: var(--fs-800);
 
     /* Font weight */
     --fw-thin: 300;
@@ -31,7 +31,7 @@
     --clr-grey: #F1F2F4;
     --clr-lightblue: #E3F1FF;
     --clr-dark: #00101C;
-    --clr-visit: #8B6DD9;
+    --clr-visit: #B44F4F;
     --clr-exhibits: #187B75;
     --clr-events: #114570;
     --clr-about: #B44F7F;

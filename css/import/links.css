@@ -3,17 +3,17 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: var(--clr-active);
-    transition-duration: 0.25s;
-}
-
-li a, a:active {
+li a, .contact-info__item a, a:active {
     color: var(--clr-dark);
 }
 
 li a:hover {
     border-bottom: 2px solid var(--clr-active);
+}
+
+a:hover {
+    color: var(--clr-active);
+    transition-duration: 0.25s;
 }
 
 .active {
@@ -24,7 +24,7 @@ li a:hover {
 .cta { 
     background: linear-gradient(91.04deg, #00101C 0%, rgba(0, 16, 28, 0.51) 100%);
     color: var(--clr-white);
-    border: 2px solid #00101C;
+    border: 2px solid var(--clr-dark);
     border-radius: 5px;
     padding: 11px 30px;
     text-transform: uppercase;

@@ -1,8 +1,11 @@
 /* EVENTS PAGE */
 .events-heading {
-    color: var(--clr-events);
     text-shadow: 4px 4px 4px rgba(17, 69, 112, 0.25);
     filter: drop-shadow(4px 4px 4px rgba(17, 69, 112, 0.25));
+}
+
+.events-heading, .events-item h2 {
+    color: var(--clr-events);
 }
 
 .energetica img {
