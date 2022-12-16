@@ -34,9 +34,9 @@
     text-align: center;
     color: var(--clr-white);
     align-items: center;
-    max-width: 650px;
+    max-width: 280px;
 }
 
 .involvment__wrapper p {
-    max-width: 380px;
+    max-width: 240px;
 }

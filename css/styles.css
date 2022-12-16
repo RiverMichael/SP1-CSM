@@ -230,7 +230,7 @@ footer li {
     display: inline-block;
     font-size: var(--fs-200);
     font-weight: var(--fw-semi-bold);
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 0px 8px;
 }
 

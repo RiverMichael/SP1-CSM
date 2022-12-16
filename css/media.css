@@ -67,6 +67,18 @@
         flex: 1;
     }
 
+    .involvment__wrapper {
+        max-width: 650px;
+    }
+
+    .involvment__wrapper p {
+        max-width: 380px;
+    }
+
+    .subscribe-validation {
+        max-width: unset;
+    }
+
 }
 
 @media (min-width: 900px) {
@@ -160,7 +172,7 @@
     }
 
     .visit-today__content p {
-        max-width: 220px;
+        max-width: 240px;
     }
 
     footer li {
