@@ -37,6 +37,34 @@ img {
 
 .icon {
     width: 36px;
+    outline: 4px solid transparent;
+    border-radius: 50%;
+    transition-property: outline-offset, outline-color;
+    transition-duration: 0.25s;
+}
+
+.icon:hover {
+    outline-offset: 4px;
+    animation: shake 0.25s;
+}
+
+.icon-twitter:hover {
+    outline-color: #1da1f2;
+}
+
+.icon-instagram:hover {
+    outline-color: #a02d76;
+}
+
+.icon-facebook:hover {
+    outline-color: #3B579D;
+}
+
+@keyframes shake {
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
 }
 
 .logo-small {
@@ -271,6 +299,18 @@ footer li {
     max-width: 400px;
     max-height: 250px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.exhibits-item:hover {
+    transform: scale(1.1);
+    transition-duration: 0.25s;
+    box-shadow: 0px 0px 4px var(--clr-exhibits);;
+}
+
+.events-item img:hover {
+    transform: rotate(0deg);
+    transform: scale(1.5);
+    transition-duration: 0.5s;
 }
 
 .exhibits a {
