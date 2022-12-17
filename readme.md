@@ -4,7 +4,8 @@ This is my project for the course; Semester Project 1, at Noroff.
 
 ## Description
 
-UPDATE TEXT HERE (in-depth about the project)
+The assignment was to create a responsive website for the local Community Science Museum using HTML and CSS.
+
 Link to the prototype: https://www.figma.com/file/EMeX95FbA7THpPUjTVR1xV/CSM-|-Semester-Project-1
 
 ### Link to the finished website
