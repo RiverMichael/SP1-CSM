@@ -11,6 +11,10 @@
         grid-auto-flow: column;
     }
 
+    .social-media {
+        justify-content: end;
+    }
+
     .footer-info, .visit-wrapper {
         grid-auto-columns: 1fr;
     }
@@ -29,10 +33,6 @@
 
     .events-item__content {
         max-width: 400px;
-    }
-
-    .social-media {
-        justify-content: end;
     }
         
     .contact-form__wrapper, .shop-dine {
@@ -63,7 +63,7 @@
         padding: var(--size-600);
     }
 
-    .explore-item > *, .shop-dine > * {
+    .explore-item > *, .shop-dine > *, .contact-form__wrapper > *, .getinvolved-item > *, .visit-today__wrapper > * {
         flex: 1;
     }
 
@@ -86,30 +86,6 @@
         --fs-nav: var(--fs-300);
     }
 
-    section, article {
-        margin-block: var(--size-700);
-    }
-
-    .visit-today, .birthdays {
-        margin-top: var(--size-800);
-    }
-
-    .visit, .tours {
-        margin-bottom: var(--size-800);
-    }
-
-    .shop-dine {
-        margin-block: var(--size-800);
-    }
-
-    .home-image__wrapper {
-        min-height: 60vh;
-    }
-
-    #birthdays img {
-        box-shadow: -30px -30px 0px var(--clr-birthdays-box);
-    }
-    
     header {
         grid-template-columns: 1fr auto;
         align-items: center;
@@ -139,6 +115,30 @@
         padding: 0px 15px;
     }
 
+    section, article {
+        margin-block: var(--size-700);
+    }
+
+    .home-image__wrapper {
+        min-height: 60vh;
+    }
+
+    .visit-today, .birthdays {
+        margin-top: var(--size-800);
+    }
+
+    .visit, .tours {
+        margin-bottom: var(--size-800);
+    }
+
+    .shop-dine {
+        margin-block: var(--size-800);
+    }
+
+    #birthdays img {
+        box-shadow: -30px -30px 0px var(--clr-birthdays-box);
+    }
+
     .visit-today__wrapper {
         max-width: 800px;
         gap: var(--size-700);
@@ -155,16 +155,20 @@
         --fs-nav: var(--fs-400);
     }
 
-    header img {
-        width: 200px;
-    }
-    
     .container {
         max-width: 1000px;
     }
 
+    header img {
+        width: 200px;
+    }
+
     .home-image__wrapper {
         min-height: 70vh;
+    }
+
+    .home-intro__wrapper p, .events-item__content {
+        max-width: 500px;
     }
 
     .young-stars {
@@ -177,10 +181,6 @@
 
     footer li {
         font-size: var(--fs-300);
-    }
-
-    .home-intro__wrapper p, .events-item__content {
-        max-width: 500px;
     }
 
     .birthdays__content {

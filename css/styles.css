@@ -172,7 +172,6 @@ header {
     top: 0px;
     z-index: 1000; 
     background: var(--clr-white);
-    scroll-margin-top: 0px;
 }
 
 header img {
@@ -202,7 +201,6 @@ nav {
     padding: var(--size-200);
     z-index: 1000;
     position: fixed;
-    display: none;
     border-radius: 0px 0px 0px 20px;
 }
 
@@ -311,10 +309,6 @@ footer li {
     transform: rotate(0deg);
     transform: scale(1.5);
     transition-duration: 0.5s;
-}
-
-.exhibits a {
-    color: var(--clr-dark);
 }
 
 .events-item {

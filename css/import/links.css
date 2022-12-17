@@ -4,21 +4,16 @@ a {
     transition: all 0.25s;
 }
 
-li a, .contact-info__item a, a:active {
+li a, .exhibits a, .contact-info__item a, a:active {
     color: var(--clr-dark);
 }
 
-li a:hover {
+li a:hover, .active {
     border-bottom: 2px solid var(--clr-active);
 }
 
-a:hover {
+a:hover, .active {
     color: var(--clr-active);
-}
-
-.active {
-    color: var(--clr-active);
-    border-bottom: 2px solid var(--clr-active);
 }
 
 .cta {  
@@ -38,12 +33,14 @@ a:hover {
 
 .cta:hover {
     background: var(--clr-white);
+}
+
+.cta:hover, .cta-execute {
     color: var(--clr-dark);
 }
 
 .cta-execute {
     background: linear-gradient(86.24deg, rgba(250, 136, 100, 0.87) -2%, rgba(250, 136, 100, 0.69) 53.56%, #FA8864 115.12%);
-    color: var(--clr-dark);
 }
 
 .cta-execute:hover {

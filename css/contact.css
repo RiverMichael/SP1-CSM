@@ -4,18 +4,16 @@
     filter: drop-shadow(4px 4px 4px rgba(0, 16, 28, 0.25));
 }
 
-.contact-info {
+.contact-info, .contact-info__item, .contact-validation {
     align-items: center;
 }
 
-.contact-info__wrapper {
-    display: flex;
+.contact-info__wrapper, .contact-form__wrapper {
     gap: var(--size-300);
 }
 
 .contact-info__item {
-    display: flex;
-    align-items: center;
+    flex-direction: row;
     gap: var(--size-100);
 }
 
@@ -24,13 +22,8 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: var(--size-300);
-    gap: var(--size-300);
     max-width: 800px;
     margin-inline: auto;
-}
-
-.contact-form__wrapper > * {
-    flex: 1;
 }
 
 .contact-form__wrapper h2, .contact-validation {
@@ -55,7 +48,6 @@
 }
 
 .contact-validation {
-    align-items: center;
     gap: var(--size-400);
 }
 
