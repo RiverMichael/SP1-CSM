@@ -1,5 +1,5 @@
 @media (min-width: 600px) {
-    .split, .split-reverse {
+    .split {
         flex-direction: row;
     }
 

@@ -40,6 +40,5 @@
 
 .birthdays img {
     box-shadow: -15px -15px 0px #FCB4FD;
-    transform: rotate(-15deg);
     max-width: 300px;
 } 
