@@ -4,16 +4,16 @@ a {
     transition: all 0.25s;
 }
 
+a:hover, .active {
+    color: var(--clr-active);
+}
+
 li a, .exhibits a, .contact-info__item a, a:active {
     color: var(--clr-dark);
 }
 
 li a:hover, .active {
     border-bottom: 2px solid var(--clr-active);
-}
-
-a:hover, .active {
-    color: var(--clr-active);
 }
 
 .cta {  
