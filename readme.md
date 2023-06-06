@@ -29,6 +29,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#running">Running</R></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
@@ -73,11 +74,23 @@ To get a local copy up and running follow these steps.
 
 ### Installation
 
-Clone the repo:
+1. Open the terminal and go to your desired folder
+
+2. Initialize a local Git repository
+
+```sh
+git init
+```
+
+3. Clone the repo:
 
 ```sh
 git clone https://github.com/RiverMichael/SP1-CSM.git
 ```
+
+### Running
+
+Open the folder of the cloned repo in a code editor (ex. VSCode).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +116,7 @@ Michael "River" Nilsson - [mrn@michaelriver.dev](mailto:mrn@michaelriver.dev) - 
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-[Link to project][github-repo]
+[Link to project][github-repo] | [Link to live site][live-site]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
