@@ -1,56 +1,61 @@
 /* CONTACT PAGE */
 .contact-heading {
-    text-shadow: 4px 4px 4px rgba(0, 16, 28, 0.25);
-    filter: drop-shadow(4px 4px 4px rgba(0, 16, 28, 0.25));
+  text-shadow: 4px 4px 4px rgba(0, 16, 28, 0.25);
+  filter: drop-shadow(4px 4px 4px rgba(0, 16, 28, 0.25));
 }
 
-.contact-info, .contact-info__item, .contact-validation {
-    align-items: center;
+.contact-info,
+.contact-info__item,
+.contact-validation {
+  align-items: center;
 }
 
-.contact-info__wrapper, .contact-form__wrapper {
-    gap: var(--size-300);
+.contact-info__wrapper,
+.contact-form__wrapper {
+  gap: var(--size-300);
 }
 
 .contact-info__item {
-    flex-direction: row;
-    gap: var(--size-100);
+  flex-direction: row;
+  gap: var(--size-100);
 }
 
 .contact-form__wrapper {
-    border: 2px solid #00101C;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    padding: var(--size-300);
-    max-width: 800px;
-    margin-inline: auto;
+  border: 2px solid #00101c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: var(--size-300);
+  max-width: 800px;
+  margin-inline: auto;
 }
 
-.contact-form__wrapper h2, .contact-validation {
-    text-align: center;
+.contact-form__wrapper h2,
+.contact-validation {
+  text-align: center;
 }
 
-.contact-form__information, .contact-form__message {
-    gap: 5px;
-    margin-block: 0px;
+.contact-form__information,
+.contact-form__message {
+  gap: 5px;
+  margin-block: 0px;
 }
 
 .contact-form__message textarea {
-    min-height: 185px;
+  min-height: 185px;
 }
 
 .subscribe-label {
-    font-size: var(--fs-300);
+  font-size: var(--fs-300);
 }
 
 .contact-form button {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .contact-validation {
-    gap: var(--size-400);
+  gap: var(--size-400);
 }
 
 .contact-validation p {
-    max-width: 400px;
+  max-width: 400px;
 }

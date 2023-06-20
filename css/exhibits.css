@@ -1,18 +1,18 @@
 /* EXHIBITS PAGE */
 .exhibits-heading {
-    text-shadow: 4px 4px 4px rgba(24, 123, 117, 0.25);
-    filter: drop-shadow(4px 4px 4px rgba(24, 123, 117, 0.25));
+  text-shadow: 4px 4px 4px rgba(24, 123, 117, 0.25);
+  filter: drop-shadow(4px 4px 4px rgba(24, 123, 117, 0.25));
 }
 
-.exhibits-heading, .exhibits-item h2 {
-    color: var(--clr-exhibits);
+.exhibits-heading,
+.exhibits-item h2 {
+  color: var(--clr-exhibits);
 }
 
 .evolution {
-    border-width: 0px 4px 4px 0px;
+  border-width: 0px 4px 4px 0px;
 }
 
 .biology {
-    border-width: 0px 0px 4px 4px;
+  border-width: 0px 0px 4px 4px;
 }
-

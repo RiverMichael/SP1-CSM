@@ -1,88 +1,99 @@
 /* HOME PAGE */
 .home-intro {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/astronaut_colors.jpg);
-    min-height: 80vh;
-    background-size: cover;
-    background-position: center top;
-    color: var(--clr-white);
-    margin-top: 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/astronaut_colors.jpg);
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center top;
+  color: var(--clr-white);
+  margin-top: 0px;
 }
 
-.home-intro, .young-stars {
-    justify-content: center;
+.home-intro,
+.young-stars {
+  justify-content: center;
 }
 
-.home-intro__wrapper, .young-stars__content {
-    gap: var(--size-200);
-} 
-
-.home-intro__wrapper, .visit-today__content {
-    text-align: center;
+.home-intro__wrapper,
+.young-stars__content {
+  gap: var(--size-200);
 }
 
-.home-intro__wrapper, .young-stars__wrapper, .visit-today__wrapper, .visit-today__content {
-    align-items: center;
+.home-intro__wrapper,
+.visit-today__content {
+  text-align: center;
+}
+
+.home-intro__wrapper,
+.young-stars__wrapper,
+.visit-today__wrapper,
+.visit-today__content {
+  align-items: center;
 }
 
 .home-intro__wrapper p {
-    max-width: 400px;
+  max-width: 400px;
 }
 
 .home-image__wrapper {
-    background: url(../images/astronaut_colors.jpg);
-    background-size: cover;
-    background-position: center top;
+  background: url(../images/astronaut_colors.jpg);
+  background-size: cover;
+  background-position: center top;
 }
 
-.home-image__wrapper{
-    min-height: 50vh;
+.home-image__wrapper {
+  min-height: 50vh;
 }
 
-.exhibits h2, .exhibits-item h3 {
-    color: var(--clr-exhibits);
+.exhibits h2,
+.exhibits-item h3 {
+  color: var(--clr-exhibits);
 }
 
 .young-stars {
-    background: #E3F1FF;
-    padding-block: var(--size-700);
+  background: #e3f1ff;
+  padding-block: var(--size-700);
 }
 
 .young-stars h2 {
-    background: linear-gradient(90.96deg, #004A82 0.45%, #015B9E 52.28%, #0066B2 100.16%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+  background: linear-gradient(90.96deg, #004a82 0.45%, #015b9e 52.28%, #0066b2 100.16%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .young-stars__wrapper {
-    max-width: 490px;
+  max-width: 490px;
 }
 
-.young-stars__wrapper, .visit-today__wrapper, .visit-today__content {
-    gap: var(--size-300);
+.young-stars__wrapper,
+.visit-today__wrapper,
+.visit-today__content {
+  gap: var(--size-300);
 }
 
-.young-stars__wrapper, .visit-today__wrapper {
-    margin-inline: auto;
+.young-stars__wrapper,
+.visit-today__wrapper {
+  margin-inline: auto;
 }
 
-.events h2, .events-item h3 {
-    color: var(--clr-events);
+.events h2,
+.events-item h3 {
+  color: var(--clr-events);
 }
 
 .visit-today__wrapper {
-    flex-direction: column-reverse;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
-    padding: var(--size-300);
+  flex-direction: column-reverse;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  padding: var(--size-300);
 }
 
 .visit-today__content p {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 .visit-today__wrapper img {
-    border-radius: 50%;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    max-width: 300px;
+  border-radius: 50%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  max-width: 300px;
 }

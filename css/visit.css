@@ -1,94 +1,112 @@
 /*  VISIT PAGE */
 .visit-heading {
-    text-shadow: 4px 4px 4px rgba(180, 79, 79, 0.25);
-    filter: drop-shadow(4px 4px 4px rgba(180, 79, 79, 0.25));
+  text-shadow: 4px 4px 4px rgba(180, 79, 79, 0.25);
+  filter: drop-shadow(4px 4px 4px rgba(180, 79, 79, 0.25));
 }
 
-.visit-heading, .visit h2, .explore h2, .explore-item h3, .shop-dine h2, .shop-dine h3, .tours h2 {
-    color: var(--clr-visit);
+.visit-heading,
+.visit h2,
+.explore h2,
+.explore-item h3,
+.shop-dine h2,
+.shop-dine h3,
+.tours h2 {
+  color: var(--clr-visit);
 }
 
-.visit, .admission, .explore-item, .tours  {
-    align-items: center;
+.visit,
+.admission,
+.explore-item,
+.tours {
+  align-items: center;
 }
 
 .visit-wrapper {
-    box-shadow: 0px 4px 4px rgba(0, 16, 28, 0.25);
-    justify-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 16, 28, 0.25);
+  justify-items: center;
 }
 
-.visit-wrapper, .tours__wrapper {
-    padding: var(--size-300);
-    border-radius: 2px;
+.visit-wrapper,
+.tours__wrapper {
+  padding: var(--size-300);
+  border-radius: 2px;
 }
 
 .visit-wrapper {
-    text-align: center;
+  text-align: center;
 }
 
-.visit-wrapper, .explore-item, .shop-dine {
-    gap: var(--size-300);
-}  
-    
-.admission, .explore-item__content, .shop-dine__item, .tours__wrapper, .accessibility__wrapper {
-    gap: var(--size-200);
+.visit-wrapper,
+.explore-item,
+.shop-dine {
+  gap: var(--size-300);
+}
+
+.admission,
+.explore-item__content,
+.shop-dine__item,
+.tours__wrapper,
+.accessibility__wrapper {
+  gap: var(--size-200);
 }
 
 .explore-item {
-    flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
 
-.explore-item, .shop-dine {
-    justify-content: space-between;
+.explore-item,
+.shop-dine {
+  justify-content: space-between;
 }
 
 .kids {
-    margin-top: var(--size-300);
+  margin-top: var(--size-300);
 }
 
 .explore-item__content {
-    max-width: 350px;
+  max-width: 350px;
 }
 
 .explore-item img {
-    border-radius: 50%;
-    max-width: 380px;
+  border-radius: 50%;
+  max-width: 380px;
 }
 
-.explore-item img, .shop-dine__item img {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.explore-item img,
+.shop-dine__item img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .explore-item img:hover {
-    transform: scale(1.2);
-    transition-duration: 0.5s;
+  transform: scale(1.2);
+  transition-duration: 0.5s;
 }
 
 .shop-dine__item img {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 .tours__wrapper {
-    background: var(--clr-white);
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    border-width: 0px 0px 4px 4px;
-    border-style: solid;
-    border-color: var(--clr-visit);
-    max-width: 600px;
+  background: var(--clr-white);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-width: 0px 0px 4px 4px;
+  border-style: solid;
+  border-color: var(--clr-visit);
+  max-width: 600px;
 }
 
 .accessibility {
-    background: url(../images/braille_display.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 40vh;
-    color: var(--clr-white);
-    justify-content: center;
+  background: url(../images/braille_display.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 40vh;
+  color: var(--clr-white);
+  justify-content: center;
 }
 
-.accessibility__wrapper { 
-    max-width: 460px;
-    background-color: #000;
-    opacity: 0.7;
-    padding: var(--size-200);
-}  
+.accessibility__wrapper {
+  max-width: 460px;
+  background-color: #000;
+  opacity: 0.7;
+  padding: var(--size-200);
+}

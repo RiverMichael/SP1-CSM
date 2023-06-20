@@ -1,52 +1,51 @@
 :root {
-    /* Font family */
-    --ff-heading: 'Ubuntu', sans-serif;
-    --ff-body: 'Source Sans Pro', sans-serif;
-    
-    /* Font size */
-    --fs-100: 0.7rem;
-    --fs-200: 0.8rem;
-    --fs-300: 1rem;
-    --fs-400: 1.25rem;
-    --fs-500: 1.5rem;
-    --fs-600: 2rem;
-    --fs-700: 2.4rem;
-    --fs-800: 3rem;
-    --fs-900: 3.8rem;
-    
-    --fs-nav: var(--fs-400);
-    --fs-body: var(--fs-300);
-    --fs-third-heading: var(--fs-400);
-    --fs-secondary-heading: var(--fs-600);
-    --fs-primary-heading: var(--fs-800);
+  /* Font family */
+  --ff-heading: "Ubuntu", sans-serif;
+  --ff-body: "Source Sans Pro", sans-serif;
 
-    /* Font weight */
-    --fw-thin: 300;
-    --fw-regular: 400;
-    --fw-semi-bold: 500;
-    --fw-bold: 700;
+  /* Font size */
+  --fs-100: 0.7rem;
+  --fs-200: 0.8rem;
+  --fs-300: 1rem;
+  --fs-400: 1.25rem;
+  --fs-500: 1.5rem;
+  --fs-600: 2rem;
+  --fs-700: 2.4rem;
+  --fs-800: 3rem;
+  --fs-900: 3.8rem;
 
-    /* Colors */
-    --clr-white: #FBFCFD;
-    --clr-grey: #F1F2F4;
-    --clr-lightblue: #E3F1FF;
-    --clr-dark: #00101C;
-    --clr-visit: #B44F4F;
-    --clr-exhibits: #187B75;
-    --clr-events: #114570;
-    --clr-about: #B44F7F;
-    --clr-get-involved: #7A9796;
-    --clr-link: #4A1C03;
-    --clr-active: #4E7795;
+  --fs-nav: var(--fs-400);
+  --fs-body: var(--fs-300);
+  --fs-third-heading: var(--fs-400);
+  --fs-secondary-heading: var(--fs-600);
+  --fs-primary-heading: var(--fs-800);
 
-    /* Sizes */
-    --size-100: 10px;
-    --size-200: 20px;
-    --size-300: 30px;
-    --size-400: 50px;
-    --size-500: 60px;
-    --size-600: 70px;
-    --size-700: 100px;
-    --size-800: 200px;
+  /* Font weight */
+  --fw-thin: 300;
+  --fw-regular: 400;
+  --fw-semi-bold: 500;
+  --fw-bold: 700;
+
+  /* Colors */
+  --clr-white: #fbfcfd;
+  --clr-grey: #f1f2f4;
+  --clr-lightblue: #e3f1ff;
+  --clr-dark: #00101c;
+  --clr-visit: #b44f4f;
+  --clr-exhibits: #187b75;
+  --clr-events: #114570;
+  --clr-about: #b44f7f;
+  --clr-get-involved: #7a9796;
+  --clr-link: #4a1c03;
+  --clr-active: #4e7795;
+
+  /* Sizes */
+  --size-100: 10px;
+  --size-200: 20px;
+  --size-300: 30px;
+  --size-400: 50px;
+  --size-500: 60px;
+  --size-600: 70px;
+  --size-700: 100px;
+  --size-800: 200px;
 }
-

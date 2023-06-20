@@ -1,55 +1,61 @@
 a {
-    color: var(--clr-link);
-    text-decoration: none;
-    transition: all 0.25s;
+  color: var(--clr-link);
+  text-decoration: none;
+  transition: all 0.25s;
 }
 
-a:hover, .active {
-    color: var(--clr-active);
+a:hover,
+.active {
+  color: var(--clr-active);
 }
 
-li a, .exhibits a, .contact-info__item a, a:active {
-    color: var(--clr-dark);
+li a,
+.exhibits a,
+.contact-info__item a,
+a:active {
+  color: var(--clr-dark);
 }
 
-li a:hover, .active {
-    border-bottom: 2px solid var(--clr-active);
+li a:hover,
+.active {
+  border-bottom: 2px solid var(--clr-active);
 }
 
-.cta {  
-    background: linear-gradient(91.04deg, #00101C 0%, rgba(0, 16, 28, 0.745077) 95.75%, #00101C 124.37%);
-    color: var(--clr-white);
-    border: 2px solid var(--clr-dark);
-    border-radius: 5px;
-    padding: 11px 30px;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: var(--ff-heading);
-    font-weight: var(--fw-semi-bold);
-    font-size: var(--fs-300);
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    transition: all 0.5s ease-in;
+.cta {
+  background: linear-gradient(91.04deg, #00101c 0%, rgba(0, 16, 28, 0.745077) 95.75%, #00101c 124.37%);
+  color: var(--clr-white);
+  border: 2px solid var(--clr-dark);
+  border-radius: 5px;
+  padding: 11px 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--ff-heading);
+  font-weight: var(--fw-semi-bold);
+  font-size: var(--fs-300);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s ease-in;
 }
 
 .cta:hover {
-    background: var(--clr-white);
+  background: var(--clr-white);
 }
 
-.cta:hover, .cta-execute {
-    color: var(--clr-dark);
+.cta:hover,
+.cta-execute {
+  color: var(--clr-dark);
 }
 
 .cta-execute {
-    background: linear-gradient(86.24deg, rgba(250, 136, 100, 0.87) -2%, rgba(250, 136, 100, 0.69) 53.56%, #FA8864 115.12%);
+  background: linear-gradient(86.24deg, rgba(250, 136, 100, 0.87) -2%, rgba(250, 136, 100, 0.69) 53.56%, #fa8864 115.12%);
 }
 
 .cta-execute:hover {
-    color: #FA8864;
-    border: 2px solid #FA8864;
+  color: #fa8864;
+  border: 2px solid #fa8864;
 }
 
 .cta:active {
-    color: var(--clr-white);
-    background: var(--clr-events);
-    border-color: var(--clr-white);
+  color: var(--clr-white);
+  background: var(--clr-events);
+  border-color: var(--clr-white);
 }

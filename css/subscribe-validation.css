@@ -1,11 +1,11 @@
 /* SUBSCRIBE-VALIDATION */
 .subscribe-validation {
-    align-items: center;
-    gap: var(--size-400);
-    text-align: center;
-    max-width: 250px;
+  align-items: center;
+  gap: var(--size-400);
+  text-align: center;
+  max-width: 250px;
 }
 
 .subscribe-validation__content {
-    gap: var(--size-100);
+  gap: var(--size-100);
 }
