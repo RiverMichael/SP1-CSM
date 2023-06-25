@@ -4,11 +4,6 @@ a {
   transition: all 0.25s;
 }
 
-a:hover,
-.active {
-  color: var(--clr-active);
-}
-
 li a,
 .exhibits a,
 .contact-info__item a,
@@ -16,7 +11,11 @@ a:active {
   color: var(--clr-dark);
 }
 
-li a:hover,
+a:hover,
+.active {
+  color: var(--clr-active);
+}
+
 .active {
   border-bottom: 2px solid var(--clr-active);
 }
@@ -33,7 +32,11 @@ li a:hover,
   font-weight: var(--fw-semi-bold);
   font-size: var(--fs-300);
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-  transition: all 0.5s ease-in;
+  transition: all 0.25s;
+}
+
+.cta-execute {
+  background: linear-gradient(86.24deg, rgba(250, 136, 100, 0.87) -2%, rgba(250, 136, 100, 0.69) 53.56%, #fa8864 115.12%);
 }
 
 .cta:hover {
@@ -43,15 +46,6 @@ li a:hover,
 .cta:hover,
 .cta-execute {
   color: var(--clr-dark);
-}
-
-.cta-execute {
-  background: linear-gradient(86.24deg, rgba(250, 136, 100, 0.87) -2%, rgba(250, 136, 100, 0.69) 53.56%, #fa8864 115.12%);
-}
-
-.cta-execute:hover {
-  color: #fa8864;
-  border: 2px solid #fa8864;
 }
 
 .cta:active {

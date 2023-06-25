@@ -187,9 +187,7 @@ article {
 
 /* HEADER */
 header {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  justify-content: space-between;
+  display: flex;
   align-items: center;
   padding: var(--size-200);
   position: sticky;
@@ -200,6 +198,10 @@ header {
 
 header img {
   width: var(--size-700);
+}
+
+.logo {
+  margin-right: auto;
 }
 
 /* NAVIGATION */
@@ -227,7 +229,19 @@ nav {
   padding: var(--size-200);
   z-index: 1000;
   position: fixed;
-  border-radius: 0px 0px 0px 20px;
+  animation: displaynav 0.25s ease-in-out;
+  transform-origin: top;
+  width: 100%;
+  text-align: center;
+}
+
+@keyframes displaynav {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
 }
 
 /* FOOTER */
@@ -336,7 +350,7 @@ footer li {
 }
 
 .exhibits-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition-duration: 0.25s;
   box-shadow: 0px 0px 4px var(--clr-exhibits);
 }

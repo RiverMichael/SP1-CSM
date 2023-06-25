@@ -94,7 +94,6 @@
   }
 
   header {
-    grid-template-columns: 1fr auto;
     align-items: center;
     padding: 20px 0px 20px 20px;
   }
@@ -115,6 +114,8 @@
     border-color: var(--clr-dark);
     border-radius: 10px 0px 0px 10px;
     box-shadow: 4px 2px 4px rgba(0, 16, 28, 0.5);
+    width: unset;
+    animation: none;
   }
 
   nav li {
